@@ -1,1 +1,859 @@
 
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-mjQPRAh2Y9A0sPdZzipNfPO7PT4g06mk0uZs15DbL/vsNCRGx1uRzWVzls9MJCoy2yRNjaMmEVFKJDpCui00mA==" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-df973073d880f28fbbae0263fb1ef62b.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-pL8rFufy0wKsP6bGmBrKSDU1OzH1/daDq/mII42aJUoOy74HZJOkR1iLPLQ4xcN/9ZOojXk8iDVwn4oOqQdPOw==" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-d7b6d7503c9433c6665e23a38783f079.css" />
+  
+  
+  
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>NationalHomicideRates/countries.json at master · scottieperry13/NationalHomicideRates</title>
+    <meta name="description" content="An interactive graphical representation of the global national homicide rates. - scottieperry13/NationalHomicideRates">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/17279063?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="scottieperry13/NationalHomicideRates" /><meta property="og:url" content="https://github.com/scottieperry13/NationalHomicideRates" /><meta property="og:description" content="An interactive graphical representation of the global national homicide rates. - scottieperry13/NationalHomicideRates" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MzIyMjA0ODAzOmMwM2EzMTNhN2RiNjcxZTA0YmVkYTA3MTdkNjIzMGFlM2RjNzdjNzNlMDRhNDMzZTBjZDE4MDRjYjE0ZjNjODA=--f92fd8d1b051dfcea4cd39f3b02806d32c10e591">
+  <meta name="pjax-timeout" content="1000">
+  <link rel="sudo-modal" href="/sessions/sudo_modal">
+  <meta name="request-id" content="CA9A:779F:40B4BC:6D3CE7:5BAD0940" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+      <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+    <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="CA9A:779F:40B4BC:6D3CE7:5BAD0940" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="43649503" /><meta name="octolytics-actor-login" content="YongBaekCho" /><meta name="octolytics-actor-hash" content="82ec6750bfd9d8ec6696cac2163ce8c18f6046582d16fa463ef15248a628b868" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
+
+
+
+    <meta name="google-analytics" content="UA-3769691-2">
+
+  <meta class="js-ga-set" name="userId" content="434636703bbc051749df44d423cd0326" %>
+
+<meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="YongBaekCho">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="MDhkZDQxZDViYjBhMTE2M2NjZjg0ZDhjM2ZiYzdmZjdkYWJjMWQ5MmUxY2MwOTllMTVkNzI0ZTA2ZjM3YjhlYXx7InJlbW90ZV9hZGRyZXNzIjoiMTUwLjEzNS4xNjUuNjAiLCJyZXF1ZXN0X2lkIjoiQ0E5QTo3NzlGOjQwQjRCQzo2RDNDRTc6NUJBRDA5NDAiLCJ0aW1lc3RhbXAiOjE1MzgwNjY3NTksImhvc3QiOiJnaXRodWIuY29tIn0=">
+
+    <meta name="enabled-features" content="DASHBOARD_V2_LAYOUT_OPT_IN,EXPLORE_DISCOVER_REPOSITORIES,UNIVERSE_BANNER,MARKETPLACE_PLAN_RESTRICTION_EDITOR,MARKETPLACE_RETARGETING,QUOTE_MARKDOWN,COLLAPSE_REPEATED_COMMENTS">
+
+  <meta name="html-safe-nonce" content="7a348a8b8daccc228f05e9c70e0584dafb78db67">
+
+  <meta http-equiv="x-pjax-version" content="cbe9d130a190eaf075b51a237a94a9cd">
+  
+
+      <link href="https://github.com/scottieperry13/NationalHomicideRates/commits/master.atom" rel="alternate" title="Recent Commits to NationalHomicideRates:master" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/scottieperry13/NationalHomicideRates git https://github.com/scottieperry13/NationalHomicideRates.git">
+
+  <meta name="octolytics-dimension-user_id" content="17279063" /><meta name="octolytics-dimension-user_login" content="scottieperry13" /><meta name="octolytics-dimension-repository_id" content="130731141" /><meta name="octolytics-dimension-repository_nwo" content="scottieperry13/NationalHomicideRates" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="130731141" /><meta name="octolytics-dimension-repository_network_root_nwo" content="scottieperry13/NationalHomicideRates" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/scottieperry13/NationalHomicideRates/blob/master/countries.json" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <meta name="u2f-support" content="true">
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-in env-production page-blob">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="p-3 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        
+<header class="Header  f5" role="banner">
+  <div class="d-flex flex-justify-between px-3 container-lg">
+    <div class="d-flex flex-justify-between ">
+      <div class="">
+        <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+
+      </div>
+
+    </div>
+
+    <div class="HeaderMenu d-flex flex-justify-between flex-auto">
+      <div class="d-flex">
+            <div class="">
+              <div class="header-search scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+  role="combobox"
+  aria-owns="jump-to-results"
+  aria-label="Search or jump to"
+  aria-haspopup="listbox"
+  aria-expanded="false"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scope-type="Repository" data-scope-id="130731141" data-scoped-search-url="/scottieperry13/NationalHomicideRates/search" data-unscoped-search-url="/search" action="/scottieperry13/NationalHomicideRates/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <label class="form-control header-search-wrapper header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text"
+          class="form-control header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search or jump to…"
+          data-unscoped-placeholder="Search or jump to…"
+          data-scoped-placeholder="Search or jump to…"
+          autocapitalize="off"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=THmYqB0QJjJPHDp6+rq4+6xpu2H1wP+nM9uejSLuzFCtMaeD2LTasPo8gH+GZjgOMUpIMeBV3mYTjXWtLWVfLg=="
+          spellcheck="false"
+          autocomplete="off"
+          >
+          <input type="hidden" class="js-site-search-type-field" name="type" >
+            <img src="https://assets-cdn.github.com/images/search-shortcut-hint.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              <ul class="d-none js-jump-to-suggestions-template-container">
+                <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item" role="option">
+                  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center p-2 jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open" href="">
+                    <div class="jump-to-octicon js-jump-to-octicon mr-2 text-center d-none">
+                      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+                      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+                      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+                    </div>
+
+                    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+                    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+                    </div>
+
+                    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+                      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+                        In this repository
+                      </span>
+                      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+                        All GitHub
+                      </span>
+                      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+                    </div>
+
+                    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+                      Jump to
+                      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <ul class="d-none js-jump-to-no-results-template-container">
+                <li class="d-flex flex-justify-center flex-items-center p-3 f5 d-none">
+                  <span class="text-gray">No suggested jump to results</span>
+                </li>
+              </ul>
+
+              <ul id="jump-to-results" role="listbox" class="js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container" >
+                <li class="d-flex flex-justify-center flex-items-center p-0 f5">
+                  <img src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" alt="Octocat Spinner Icon" class="m-2" width="28">
+                </li>
+              </ul>
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+            </div>
+
+          <ul class="d-flex pl-2 flex-items-center text-bold list-style-none" role="navigation">
+            <li>
+              <a class="js-selected-navigation-item HeaderNavlink px-2" data-hotkey="g p" data-ga-click="Header, click, Nav menu - item:pulls context:user" aria-label="Pull requests you created" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls" href="/pulls">
+                Pull requests
+</a>            </li>
+            <li>
+              <a class="js-selected-navigation-item HeaderNavlink px-2" data-hotkey="g i" data-ga-click="Header, click, Nav menu - item:issues context:user" aria-label="Issues you created" data-selected-links="/issues /issues/assigned /issues/mentioned /issues" href="/issues">
+                Issues
+</a>            </li>
+              <li>
+                <a class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-octo-click="marketplace_click" data-octo-dimensions="location:nav_bar" data-selected-links=" /marketplace" href="/marketplace">
+                   Marketplace
+</a>              </li>
+            <li>
+              <a class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                Explore
+</a>            </li>
+          </ul>
+      </div>
+
+      <div class="d-flex">
+        
+<ul class="user-nav d-flex flex-items-center list-style-none" id="user-links">
+  <li class="dropdown">
+    <span class="d-inline-block  px-2">
+      
+    <a aria-label="You have no unread notifications" class="notification-indicator tooltipped tooltipped-s  js-socket-channel js-notification-indicator" data-hotkey="g n" data-ga-click="Header, go to notifications, icon:read" data-channel="notification-changed:43649503" href="/notifications">
+        <span class="mail-status "></span>
+        <svg class="octicon octicon-bell" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.99 11.991v1H0v-1l.73-.58c.769-.769.809-2.547 1.189-4.416.77-3.767 4.077-4.996 4.077-4.996 0-.55.45-1 .999-1 .55 0 1 .45 1 1 0 0 3.387 1.229 4.156 4.996.38 1.879.42 3.657 1.19 4.417l.659.58h-.01zM6.995 15.99c1.11 0 1.999-.89 1.999-1.999H4.996c0 1.11.89 1.999 1.999 1.999z"/></svg>
+</a>
+    </span>
+  </li>
+
+  <li class="dropdown">
+    <details class="details-overlay details-reset d-flex px-2 flex-items-center">
+      <summary class="HeaderNavlink"
+         aria-label="Create new…"
+         data-ga-click="Header, create new, icon:add">
+        <svg class="octicon octicon-plus float-left mr-1 mt-1" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"/></svg>
+        <span class="dropdown-caret mt-1"></span>
+      </summary>
+      <details-menu class="dropdown-menu dropdown-menu-sw">
+        
+<a role="menuitem" class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+  <a role="menuitem" class="dropdown-item" href="/new/import" data-ga-click="Header, import a repository">
+    Import repository
+  </a>
+
+<a role="menuitem" class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
+  New gist
+</a>
+
+  <a role="menuitem" class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+  <div class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="scottieperry13/NationalHomicideRates">This repository</span>
+  </div>
+    <a role="menuitem" class="dropdown-item" href="/scottieperry13/NationalHomicideRates/issues/new" data-ga-click="Header, create new issue">
+      New issue
+    </a>
+
+      </details-menu>
+    </details>
+  </li>
+
+  <li class="dropdown">
+
+    <details class="details-overlay details-reset d-flex pl-2 flex-items-center">
+      <summary class="HeaderNavlink name mt-1"
+        aria-label="View profile and more"
+        data-ga-click="Header, show menu, icon:avatar">
+        <img alt="@YongBaekCho" class="avatar float-left mr-1" src="https://avatars2.githubusercontent.com/u/43649503?s=40&amp;v=4" height="20" width="20">
+        <span class="dropdown-caret"></span>
+      </summary>
+      <details-menu class="dropdown-menu dropdown-menu-sw">
+        <ul>
+          <li class="header-nav-current-user css-truncate"><a role="menuitem" class="no-underline user-profile-link px-3 pt-2 pb-2 mb-n2 mt-n1 d-block" href="/YongBaekCho" data-ga-click="Header, go to profile, text:Signed in as">Signed in as <strong class="css-truncate-target">YongBaekCho</strong></a></li>
+          <li class="dropdown-divider"></li>
+          <li><a role="menuitem" class="dropdown-item" href="/YongBaekCho" data-ga-click="Header, go to profile, text:your profile">Your profile</a></li>
+          <li><a role="menuitem" class="dropdown-item" href="/YongBaekCho?tab=repositories" data-ga-click="Header, go to repositories, text:your repositories">Your repositories</a></li>
+          <li><a role="menuitem" class="dropdown-item" href="/YongBaekCho?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">Your stars</a></li>
+            <li><a role="menuitem" class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, your gists, text:your gists">Your gists</a></li>
+          <li class="dropdown-divider"></li>
+          <li><a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a></li>
+          <li><a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a></li>
+          <li>
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="SklqyzlGXnMb5xCDK/IkfR6TNjw8AtrqJmHv5PBkYfAQB1M0OBgo8KGAL/7VyL7Q2NlkafTsV3bcZGHfWCexoA==" />
+              <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
+                Sign out
+              </button>
+</form>          </li>
+        </ul>
+      </details-menu>
+    </details>
+  </li>
+</ul>
+
+
+
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="8sEx7O+1thTY7zo3047dIITHN3OXdtqgefiC963ZMlmojwgT7uvAl2KIBUottEeNQo1lJl+YVzyD/QzMBZriCQ==" />
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+</form>      </div>
+    </div>
+  </div>
+</header>
+
+      
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+
+
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="vYc5d+nH4HPZYTX6SG+rMHCQOGu+B7pSqLloDb0SFyP6RB2/0XBZKBrJ8FXdKD9nz+7kYq50iHmxPTYE4gTZWg==" />      <input type="hidden" name="repository_id" id="repository_id" value="130731141" class="form-control" />
+
+      <details class="details-reset details-overlay select-menu float-left">
+        <summary class="btn btn-sm btn-with-count select-menu-button" data-ga-click="Repository, click Watch settings, action:blob#show">
+          <span data-menu-button>
+              <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+              Watch
+          </span>
+        </summary>
+        <details-menu class="select-menu-modal position-absolute mt-5" style="z-index: 99;">
+          <div class="select-menu-header">
+            <span class="select-menu-title">Notifications</span>
+          </div>
+          <div class="select-menu-list">
+            <button type="submit" name="do" value="included" class="select-menu-item width-full" aria-checked="true" role="menuitemradio">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <div class="select-menu-item-text">
+                <span class="select-menu-item-heading">Not watching</span>
+                <span class="description">Be notified when participating or @mentioned.</span>
+                <span class="hidden-select-button-text" data-menu-button-contents>
+                  <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                  Watch
+                </span>
+              </div>
+            </button>
+
+            <button type="submit" name="do" value="subscribed" class="select-menu-item width-full" aria-checked="false" role="menuitemradio">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <div class="select-menu-item-text">
+                <span class="select-menu-item-heading">Watching</span>
+                <span class="description">Be notified of all conversations.</span>
+                <span class="hidden-select-button-text" data-menu-button-contents>
+                  <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                  Unwatch
+                </span>
+              </div>
+            </button>
+
+            <button type="submit" name="do" value="ignore" class="select-menu-item width-full" aria-checked="false" role="menuitemradio">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <div class="select-menu-item-text">
+                <span class="select-menu-item-heading">Ignoring</span>
+                <span class="description">Never be notified.</span>
+                <span class="hidden-select-button-text" data-menu-button-contents>
+                  <svg class="octicon octicon-mute v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 2.81v10.38c0 .67-.81 1-1.28.53L3 10H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h2l3.72-3.72C7.19 1.81 8 2.14 8 2.81zm7.53 3.22l-1.06-1.06-1.97 1.97-1.97-1.97-1.06 1.06L11.44 8 9.47 9.97l1.06 1.06 1.97-1.97 1.97 1.97 1.06-1.06L13.56 8l1.97-1.97z"/></svg>
+                  Stop ignoring
+                </span>
+              </div>
+            </button>
+          </div>
+        </details-menu>
+      </details>
+      <a class="social-count js-social-count"
+        href="/scottieperry13/NationalHomicideRates/watchers"
+        aria-label="0 users are watching this repository">
+        0
+      </a>
+</form>
+  </li>
+
+  <li>
+    
+  <div class="js-toggler-container js-social-container starring-container ">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/scottieperry13/NationalHomicideRates/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="lojPAw3S4FbQia0BEEcvJbDFbJ6BBMTVTL//Fplt6kxKUI3/LQK5l6xOvLL8pjVWEEO2A5SGbP81vFXN9usdVA==" />
+      <input type="hidden" name="context" value="repository"></input>
+      <button
+        type="submit"
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Unstar this repository" title="Unstar scottieperry13/NationalHomicideRates"
+        data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">
+        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="/scottieperry13/NationalHomicideRates/stargazers"
+           aria-label="0 users starred this repository">
+          0
+        </a>
+</form>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/scottieperry13/NationalHomicideRates/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="h2kI0sUP52wjLET3Q5+gkBDzKcMchYlIvP2Cfcv2iLZ49ARcrWJDmCIpWvJwWC6KvmRtOfRPoQ6Mlx0ZdK8A+A==" />
+      <input type="hidden" name="context" value="repository"></input>
+      <button
+        type="submit"
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Star this repository" title="Star scottieperry13/NationalHomicideRates"
+        data-ga-click="Repository, click star button, action:blob#show; text:Star">
+        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="/scottieperry13/NationalHomicideRates/stargazers"
+           aria-label="0 users starred this repository">
+          0
+        </a>
+</form>  </div>
+
+  </li>
+
+  <li>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/scottieperry13/NationalHomicideRates/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="pJ9CYakZTbn3224eQ2oP8yZxZUIzCBQHByzW6vtS84mBvSdHLeyj05AWCOWOwNh+XMYC9zby/GsD9+M9gcEMNw==" />
+            <button
+                type="submit"
+                class="btn btn-sm btn-with-count"
+                data-ga-click="Repository, show fork modal, action:blob#show; text:Fork"
+                title="Fork your own copy of scottieperry13/NationalHomicideRates to your account"
+                aria-label="Fork your own copy of scottieperry13/NationalHomicideRates to your account">
+              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+              Fork
+            </button>
+</form>
+    <a href="/scottieperry13/NationalHomicideRates/network/members" class="social-count"
+       aria-label="0 users forked this repository">
+      0
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/scottieperry13">scottieperry13</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/scottieperry13/NationalHomicideRates">NationalHomicideRates</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /scottieperry13/NationalHomicideRates" href="/scottieperry13/NationalHomicideRates">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /scottieperry13/NationalHomicideRates/issues" href="/scottieperry13/NationalHomicideRates/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /scottieperry13/NationalHomicideRates/pulls" href="/scottieperry13/NationalHomicideRates/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /scottieperry13/NationalHomicideRates/projects" href="/scottieperry13/NationalHomicideRates/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /scottieperry13/NationalHomicideRates/wiki" href="/scottieperry13/NationalHomicideRates/wiki">
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      Wiki
+</a>
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse alerts /scottieperry13/NationalHomicideRates/pulse" href="/scottieperry13/NationalHomicideRates/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/scottieperry13/NationalHomicideRates/blob/d8725cd0ed0899f9574063931eb7b5eb7e5a0e06/countries.json">Permalink</a>
+
+  <!-- blob contrib key: blob_contributors:v21:9fb231c8bd45791319eb4a8fa17db9c0 -->
+
+  
+
+  <div class="file-navigation">
+    
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/scottieperry13/NationalHomicideRates/blob/master/countries.json"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="BtnGroup float-right">
+      <a href="/scottieperry13/NationalHomicideRates/find/master"
+            class="js-pjax-capture-input btn btn-sm BtnGroup-item"
+            data-pjax
+            data-hotkey="t">
+        Find file
+      </a>
+      <clipboard-copy for="blob-path" class="btn btn-sm BtnGroup-item">
+        Copy path
+      </clipboard-copy>
+    </div>
+    <div id="blob-path" class="breadcrumb">
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/scottieperry13/NationalHomicideRates"><span>NationalHomicideRates</span></a></span></span><span class="separator">/</span><strong class="final-path">countries.json</strong>
+    </div>
+  </div>
+
+
+  
+  <div class="commit-tease">
+      <span class="float-right">
+        <a class="commit-tease-sha" href="/scottieperry13/NationalHomicideRates/commit/bffb31947400916aa98defe15a452c10378f45a0" data-pjax>
+          bffb319
+        </a>
+        <relative-time datetime="2018-04-23T17:21:10Z">Apr 23, 2018</relative-time>
+      </span>
+      <div>
+        <a rel="author" data-skip-pjax="true" data-hovercard-user-id="17279063" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/scottieperry13"><img class="avatar" src="https://avatars2.githubusercontent.com/u/17279063?s=40&amp;v=4" width="20" height="20" alt="@scottieperry13" /></a>
+        <a class="user-mention" rel="author" data-hovercard-user-id="17279063" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/scottieperry13">scottieperry13</a>
+          <a data-pjax="true" title="Website
+
+First Push" class="message" href="/scottieperry13/NationalHomicideRates/commit/bffb31947400916aa98defe15a452c10378f45a0">Website</a>
+      </div>
+
+    <div class="commit-tease-contributors">
+      
+<details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-2" id="blob_contributors_box">
+  <summary class="btn-link" aria-haspopup="dialog"  >
+    
+    <span><strong>1</strong> contributor</span>
+  </summary>
+  <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast " aria-label="Users who have contributed to this file">
+    <div class="Box-header">
+      <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+      </button>
+      <h3 class="Box-title">Users who have contributed to this file</h3>
+    </div>
+    
+        <ul class="list-style-none overflow-auto">
+            <li class="Box-row">
+              <a class="link-gray-dark no-underline" href="/scottieperry13">
+                <img class="avatar mr-2" alt="" src="https://avatars2.githubusercontent.com/u/17279063?s=40&amp;v=4" width="20" height="20" />
+                scottieperry13
+</a>            </li>
+        </ul>
+
+  </details-dialog>
+</details>
+      
+    </div>
+  </div>
+
+
+
+  <div class="file">
+    <div class="file-header">
+  <div class="file-actions">
+
+    <div class="BtnGroup">
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/scottieperry13/NationalHomicideRates/raw/master/countries.json">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/scottieperry13/NationalHomicideRates/blame/master/countries.json">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/scottieperry13/NationalHomicideRates/commits/master/countries.json">History</a>
+    </div>
+
+        <a class="btn-octicon tooltipped tooltipped-nw"
+           href="https://desktop.github.com"
+           aria-label="Open this file in GitHub Desktop"
+           data-ga-click="Repository, open with desktop, type:windows">
+            <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
+        </a>
+
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/scottieperry13/NationalHomicideRates/edit/master/countries.json" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="1jFQLix5W16Q9DFQ3ikxL+MaEGc7sZIVsWj2ehnpL9e0Bytcqv2su4Pl/ol3K08j9NYFkN7rUmzTDku8tCxF6A==" />
+            <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
+              aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
+              <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
+            </button>
+</form>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/scottieperry13/NationalHomicideRates/delete/master/countries.json" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="wwUEEaMN7pO3c8QGTOe/yzHxPzIz4UulpLoGWQOptoNXB9SAyPuYb6Hctgm2t4P8wPinj3OCJmSnXl49xhsGTQ==" />
+          <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
+            aria-label="Fork this project and delete the file" data-disable-with>
+            <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
+          </button>
+</form>  </div>
+
+  <div class="file-info">
+      4 lines (4 sloc)
+      <span class="file-info-divider"></span>
+    37.9 KB
+  </div>
+</div>
+
+    
+
+  <div itemprop="text" class="blob-wrapper data type-json">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">{ &quot;countries&quot; : [{&quot;CountryName&quot;:&quot;Somaliland&quot;,&quot;CapitalName&quot;:&quot;Hargeisa&quot;,&quot;CapitalLatitude&quot;:&quot;9.55&quot;,&quot;CapitalLongitude&quot;:&quot;44.050000&quot;,&quot;CountryCode&quot;:&quot;NULL&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;&quot;, &quot;f&quot;: &quot;&quot;},</td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line">    {&quot;CountryName&quot;:&quot;South Georgia and South Sandwich Islands&quot;,&quot;CapitalName&quot;:&quot;King Edward Point&quot;,&quot;CapitalLatitude&quot;:&quot;-54.283333&quot;,&quot;CapitalLongitude&quot;:&quot;-36.500000&quot;,&quot;CountryCode&quot;:&quot;GS&quot;,&quot;ContinentName&quot;:&quot;Antarctica&quot;, &quot;m&quot;: &quot;&quot;, &quot;f&quot;: &quot;&quot;},{&quot;CountryName&quot;:&quot;French Southern and Antarctic Lands&quot;,&quot;CapitalName&quot;:&quot;Port-aux-FranÃ§ais&quot;,&quot;CapitalLatitude&quot;:&quot;-49.35&quot;,&quot;CapitalLongitude&quot;:&quot;70.216667&quot;,&quot;CountryCode&quot;:&quot;TF&quot;,&quot;ContinentName&quot;:&quot;Antarctica&quot;, &quot;m&quot;: &quot;&quot;, &quot;f&quot;: &quot;&quot;},{&quot;CountryName&quot;:&quot;Palestine&quot;,&quot;CapitalName&quot;:&quot;Jerusalem&quot;,&quot;CapitalLatitude&quot;:&quot;31.766666666666666&quot;,&quot;CapitalLongitude&quot;:&quot;35.233333&quot;,&quot;CountryCode&quot;:&quot;PS&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;&quot;, &quot;f&quot;: &quot;&quot;},{&quot;CountryName&quot;:&quot;Aland Islands&quot;,&quot;CapitalName&quot;:&quot;Mariehamn&quot;,&quot;CapitalLatitude&quot;:&quot;60.116667&quot;,&quot;CapitalLongitude&quot;:&quot;19.900000&quot;,&quot;CountryCode&quot;:&quot;AX&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;&quot;, &quot;f&quot;: &quot;&quot;},{&quot;CountryName&quot;:&quot;Nauru&quot;,&quot;CapitalName&quot;:&quot;Yaren&quot;,&quot;CapitalLatitude&quot;:&quot;-0.5477&quot;,&quot;CapitalLongitude&quot;:&quot;166.920867&quot;,&quot;CountryCode&quot;:&quot;NR&quot;,&quot;ContinentName&quot;:&quot;Australia&quot;, &quot;m&quot;: &quot;&quot;, &quot;f&quot;: &quot;&quot;},{&quot;CountryName&quot;:&quot;Saint Martin&quot;,&quot;CapitalName&quot;:&quot;Marigot&quot;,&quot;CapitalLatitude&quot;:&quot;18.0731&quot;,&quot;CapitalLongitude&quot;:&quot;-63.082200&quot;,&quot;CountryCode&quot;:&quot;MF&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;&quot;, &quot;f&quot;: &quot;&quot;},{&quot;CountryName&quot;:&quot;Tokelau&quot;,&quot;CapitalName&quot;:&quot;Atafu&quot;,&quot;CapitalLatitude&quot;:&quot;-9.166667&quot;,&quot;CapitalLongitude&quot;:&quot;-171.833333&quot;,&quot;CountryCode&quot;:&quot;TK&quot;,&quot;ContinentName&quot;:&quot;Australia&quot;, &quot;m&quot;: &quot;&quot;, &quot;f&quot;: &quot;&quot;},{&quot;CountryName&quot;:&quot;Western Sahara&quot;,&quot;CapitalName&quot;:&quot;El-AaiÃºn&quot;,&quot;CapitalLatitude&quot;:&quot;27.153611&quot;,&quot;CapitalLongitude&quot;:&quot;-13.203333&quot;,&quot;CountryCode&quot;:&quot;EH&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;&quot;, &quot;f&quot;: &quot;&quot;},</td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line">    {&quot;CountryName&quot;:&quot;Afghanistan&quot;,&quot;CapitalName&quot;:&quot;Kabul&quot;,&quot;CapitalLatitude&quot;:&quot;34.516666666666666&quot;,&quot;CapitalLongitude&quot;:&quot;69.183333&quot;,&quot;CountryCode&quot;:&quot;AF&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;5.7&quot;, &quot;f&quot;: &quot;0.8&quot;},{&quot;CountryName&quot;:&quot;Albania&quot;,&quot;CapitalName&quot;:&quot;Tirana&quot;,&quot;CapitalLatitude&quot;:&quot;41.31666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;19.816667&quot;,&quot;CountryCode&quot;:&quot;AL&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;4.2&quot;, &quot;f&quot;: &quot;0.8&quot;},{&quot;CountryName&quot;:&quot;Algeria&quot;,&quot;CapitalName&quot;:&quot;Algiers&quot;,&quot;CapitalLatitude&quot;:&quot;36.75&quot;,&quot;CapitalLongitude&quot;:&quot;3.050000&quot;,&quot;CountryCode&quot;:&quot;DZ&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;0.6&quot;, &quot;f&quot;: &quot;0.1&quot;},{&quot;CountryName&quot;:&quot;American Samoa&quot;,&quot;CapitalName&quot;:&quot;Pago Pago&quot;,&quot;CapitalLatitude&quot;:&quot;-14.266666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;-170.700000&quot;,&quot;CountryCode&quot;:&quot;AS&quot;,&quot;ContinentName&quot;:&quot;Australia&quot;, &quot;m&quot;: &quot;&quot;, &quot;f&quot;: &quot;&quot;},{&quot;CountryName&quot;:&quot;Andorra&quot;,&quot;CapitalName&quot;:&quot;Andorra la Vella&quot;,&quot;CapitalLatitude&quot;:&quot;42.5&quot;,&quot;CapitalLongitude&quot;:&quot;1.516667&quot;,&quot;CountryCode&quot;:&quot;AD&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;&quot;, &quot;f&quot;: &quot;&quot;},{&quot;CountryName&quot;:&quot;Angola&quot;,&quot;CapitalName&quot;:&quot;Luanda&quot;,&quot;CapitalLatitude&quot;:&quot;-8.833333333333334&quot;,&quot;CapitalLongitude&quot;:&quot;13.216667&quot;,&quot;CountryCode&quot;:&quot;AO&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;8.1&quot;, &quot;f&quot;: &quot;1.9&quot;},{&quot;CountryName&quot;:&quot;Anguilla&quot;,&quot;CapitalName&quot;:&quot;The Valley&quot;,&quot;CapitalLatitude&quot;:&quot;18.216666666666665&quot;,&quot;CapitalLongitude&quot;:&quot;-63.050000&quot;,&quot;CountryCode&quot;:&quot;AI&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;7.5&quot;, &quot;f&quot;: &quot;0.0&quot;},{&quot;CountryName&quot;:&quot;Antigua and Barbuda&quot;,&quot;CapitalName&quot;:&quot;Saint John&#39;s&quot;,&quot;CapitalLatitude&quot;:&quot;17.116666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;-61.850000&quot;,&quot;CountryCode&quot;:&quot;AG&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;7.6&quot;, &quot;f&quot;: &quot;3.6&quot;},{&quot;CountryName&quot;:&quot;Argentina&quot;,&quot;CapitalName&quot;:&quot;Buenos Aires&quot;,&quot;CapitalLatitude&quot;:&quot;-34.583333333333336&quot;,&quot;CapitalLongitude&quot;:&quot;-58.666667&quot;,&quot;CountryCode&quot;:&quot;AR&quot;,&quot;ContinentName&quot;:&quot;South America&quot;, &quot;m&quot;: &quot;4.6&quot;, &quot;f&quot;: &quot;0.9&quot;},{&quot;CountryName&quot;:&quot;Armenia&quot;,&quot;CapitalName&quot;:&quot;Yerevan&quot;,&quot;CapitalLatitude&quot;:&quot;40.166666666666664&quot;,&quot;CapitalLongitude&quot;:&quot;44.500000&quot;,&quot;CountryCode&quot;:&quot;AM&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;1.2&quot;, &quot;f&quot;: &quot;0.6&quot;},{&quot;CountryName&quot;:&quot;Aruba&quot;,&quot;CapitalName&quot;:&quot;Oranjestad&quot;,&quot;CapitalLatitude&quot;:&quot;12.516666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;-70.033333&quot;,&quot;CountryCode&quot;:&quot;AW&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;3.9&quot;, &quot;f&quot;: &quot;0.0&quot;},{&quot;CountryName&quot;:&quot;Australia&quot;,&quot;CapitalName&quot;:&quot;Canberra&quot;,&quot;CapitalLatitude&quot;:&quot;-35.266666666666666&quot;,&quot;CapitalLongitude&quot;:&quot;149.133333&quot;,&quot;CountryCode&quot;:&quot;AU&quot;,&quot;ContinentName&quot;:&quot;Australia&quot;, &quot;m&quot;: &quot;0.7&quot;, &quot;f&quot;: &quot;0.4&quot;},{&quot;CountryName&quot;:&quot;Austria&quot;,&quot;CapitalName&quot;:&quot;Vienna&quot;,&quot;CapitalLatitude&quot;:&quot;48.2&quot;,&quot;CapitalLongitude&quot;:&quot;16.366667&quot;,&quot;CountryCode&quot;:&quot;AT&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.5&quot;, &quot;f&quot;: &quot;0.4&quot;},{&quot;CountryName&quot;:&quot;Azerbaijan&quot;,&quot;CapitalName&quot;:&quot;Baku&quot;,&quot;CapitalLatitude&quot;:&quot;40.38333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;49.866667&quot;,&quot;CountryCode&quot;:&quot;AZ&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;1.5&quot;, &quot;f&quot;: &quot;0.6&quot;},{&quot;CountryName&quot;:&quot;Bahamas&quot;,&quot;CapitalName&quot;:&quot;Nassau&quot;,&quot;CapitalLatitude&quot;:&quot;25.083333333333332&quot;,&quot;CapitalLongitude&quot;:&quot;-77.350000&quot;,&quot;CountryCode&quot;:&quot;BS&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;26.0&quot;, &quot;f&quot;: &quot;3.8&quot;},{&quot;CountryName&quot;:&quot;Bahrain&quot;,&quot;CapitalName&quot;:&quot;Manama&quot;,&quot;CapitalLatitude&quot;:&quot;26.233333333333334&quot;,&quot;CapitalLongitude&quot;:&quot;50.566667&quot;,&quot;CountryCode&quot;:&quot;BH&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;0.4&quot;, &quot;f&quot;: &quot;0.1&quot;},{&quot;CountryName&quot;:&quot;Bangladesh&quot;,&quot;CapitalName&quot;:&quot;Dhaka&quot;,&quot;CapitalLatitude&quot;:&quot;23.716666666666665&quot;,&quot;CapitalLongitude&quot;:&quot;90.400000&quot;,&quot;CountryCode&quot;:&quot;BD&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;1.7&quot;, &quot;f&quot;: &quot;1.0&quot;},{&quot;CountryName&quot;:&quot;Barbados&quot;,&quot;CapitalName&quot;:&quot;Bridgetown&quot;,&quot;CapitalLatitude&quot;:&quot;13.1&quot;,&quot;CapitalLongitude&quot;:&quot;-59.616667&quot;,&quot;CountryCode&quot;:&quot;BB&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;5.0&quot;, &quot;f&quot;: &quot;2.4&quot;},{&quot;CountryName&quot;:&quot;Belarus&quot;,&quot;CapitalName&quot;:&quot;Minsk&quot;,&quot;CapitalLatitude&quot;:&quot;53.9&quot;,&quot;CapitalLongitude&quot;:&quot;27.566667&quot;,&quot;CountryCode&quot;:&quot;BY&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;3.5&quot;, &quot;f&quot;: &quot;1.6&quot;},{&quot;CountryName&quot;:&quot;Belgium&quot;,&quot;CapitalName&quot;:&quot;Brussels&quot;,&quot;CapitalLatitude&quot;:&quot;50.833333333333336&quot;,&quot;CapitalLongitude&quot;:&quot;4.333333&quot;,&quot;CountryCode&quot;:&quot;BE&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.9&quot;, &quot;f&quot;: &quot;0.7&quot;},{&quot;CountryName&quot;:&quot;Belize&quot;,&quot;CapitalName&quot;:&quot;Belmopan&quot;,&quot;CapitalLatitude&quot;:&quot;17.25&quot;,&quot;CapitalLongitude&quot;:&quot;-88.766667&quot;,&quot;CountryCode&quot;:&quot;BZ&quot;,&quot;ContinentName&quot;:&quot;Central America&quot;, &quot;m&quot;: &quot;40.4&quot;, &quot;f&quot;: &quot;4.3&quot;},{&quot;CountryName&quot;:&quot;Benin&quot;,&quot;CapitalName&quot;:&quot;Porto-Novo&quot;,&quot;CapitalLatitude&quot;:&quot;6.483333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;2.616667&quot;,&quot;CountryCode&quot;:&quot;BJ&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;6.0&quot;, &quot;f&quot;: &quot;2.4&quot;},{&quot;CountryName&quot;:&quot;Bermuda&quot;,&quot;CapitalName&quot;:&quot;Hamilton&quot;,&quot;CapitalLatitude&quot;:&quot;32.28333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;-64.783333&quot;,&quot;CountryCode&quot;:&quot;BM&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;&quot;, &quot;f&quot;: &quot;&quot;},{&quot;CountryName&quot;:&quot;Bhutan&quot;,&quot;CapitalName&quot;:&quot;Thimphu&quot;,&quot;CapitalLatitude&quot;:&quot;27.466666666666665&quot;,&quot;CapitalLongitude&quot;:&quot;89.633333&quot;,&quot;CountryCode&quot;:&quot;BT&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;1.0&quot;, &quot;f&quot;: &quot;0.7&quot;},{&quot;CountryName&quot;:&quot;Bolivia&quot;,&quot;CapitalName&quot;:&quot;La Paz&quot;,&quot;CapitalLatitude&quot;:&quot;-16.5&quot;,&quot;CapitalLongitude&quot;:&quot;-68.150000&quot;,&quot;CountryCode&quot;:&quot;BO&quot;,&quot;ContinentName&quot;:&quot;South America&quot;, &quot;m&quot;: &quot;9.4&quot;, &quot;f&quot;: &quot;2.7&quot;},{&quot;CountryName&quot;:&quot;Bosnia and Herzegovina&quot;,&quot;CapitalName&quot;:&quot;Sarajevo&quot;,&quot;CapitalLatitude&quot;:&quot;43.86666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;18.416667&quot;,&quot;CountryCode&quot;:&quot;BA&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.9&quot;, &quot;f&quot;: &quot;0.4&quot;},{&quot;CountryName&quot;:&quot;Botswana&quot;,&quot;CapitalName&quot;:&quot;Gaborone&quot;,&quot;CapitalLatitude&quot;:&quot;-24.633333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;25.900000&quot;,&quot;CountryCode&quot;:&quot;BW&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;14.0&quot;, &quot;f&quot;: &quot;4.4&quot;},{&quot;CountryName&quot;:&quot;Brazil&quot;,&quot;CapitalName&quot;:&quot;Brasilia&quot;,&quot;CapitalLatitude&quot;:&quot;-15.783333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;-47.916667&quot;,&quot;CountryCode&quot;:&quot;BR&quot;,&quot;ContinentName&quot;:&quot;South America&quot;, &quot;m&quot;: &quot;22.6&quot;, &quot;f&quot;: &quot;2.6&quot;},{&quot;CountryName&quot;:&quot;British Virgin Islands&quot;,&quot;CapitalName&quot;:&quot;Road Town&quot;,&quot;CapitalLatitude&quot;:&quot;18.416666666666668&quot;,&quot;CapitalLongitude&quot;:&quot;-64.616667&quot;,&quot;CountryCode&quot;:&quot;VG&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;4.2&quot;, &quot;f&quot;: &quot;4.2&quot;},{&quot;CountryName&quot;:&quot;Brunei Darussalam&quot;,&quot;CapitalName&quot;:&quot;Bandar Seri Begawan&quot;,&quot;CapitalLatitude&quot;:&quot;4.883333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;114.933333&quot;,&quot;CountryCode&quot;:&quot;BN&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;1.1&quot;, &quot;f&quot;: &quot;0.9&quot;},{&quot;CountryName&quot;:&quot;Bulgaria&quot;,&quot;CapitalName&quot;:&quot;Sofia&quot;,&quot;CapitalLatitude&quot;:&quot;42.68333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;23.316667&quot;,&quot;CountryCode&quot;:&quot;BG&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;1.6&quot;, &quot;f&quot;: &quot;0.3&quot;},{&quot;CountryName&quot;:&quot;Burkina Faso&quot;,&quot;CapitalName&quot;:&quot;Ouagadougou&quot;,&quot;CapitalLatitude&quot;:&quot;12.366666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;-1.516667&quot;,&quot;CountryCode&quot;:&quot;BF&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;5.4&quot;, &quot;f&quot;: &quot;2.6&quot;},{&quot;CountryName&quot;:&quot;Myanmar&quot;,&quot;CapitalName&quot;:&quot;Rangoon&quot;,&quot;CapitalLatitude&quot;:&quot;16.8&quot;,&quot;CapitalLongitude&quot;:&quot;96.150000&quot;,&quot;CountryCode&quot;:&quot;MM&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;&quot;, &quot;f&quot;: &quot;&quot;},{&quot;CountryName&quot;:&quot;Burundi&quot;,&quot;CapitalName&quot;:&quot;Bujumbura&quot;,&quot;CapitalLatitude&quot;:&quot;-3.3666666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;29.350000&quot;,&quot;CountryCode&quot;:&quot;BI&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;5.6&quot;, &quot;f&quot;: &quot;2.4&quot;},{&quot;CountryName&quot;:&quot;Cambodia&quot;,&quot;CapitalName&quot;:&quot;Phnom Penh&quot;,&quot;CapitalLatitude&quot;:&quot;11.55&quot;,&quot;CapitalLongitude&quot;:&quot;104.916667&quot;,&quot;CountryCode&quot;:&quot;KH&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;4.9&quot;, &quot;f&quot;: &quot;1.6&quot;},{&quot;CountryName&quot;:&quot;Cameroon&quot;,&quot;CapitalName&quot;:&quot;Yaounde&quot;,&quot;CapitalLatitude&quot;:&quot;3.8666666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;11.516667&quot;,&quot;CountryCode&quot;:&quot;CM&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;5.7&quot;, &quot;f&quot;: &quot;1.9&quot;},{&quot;CountryName&quot;:&quot;Canada&quot;,&quot;CapitalName&quot;:&quot;Ottawa&quot;,&quot;CapitalLatitude&quot;:&quot;45.416666666666664&quot;,&quot;CapitalLongitude&quot;:&quot;-75.700000&quot;,&quot;CountryCode&quot;:&quot;CA&quot;,&quot;ContinentName&quot;:&quot;Central America&quot;, &quot;m&quot;: &quot;1.1&quot;, &quot;f&quot;: &quot;0.5&quot;},{&quot;CountryName&quot;:&quot;Cape Verde&quot;,&quot;CapitalName&quot;:&quot;Praia&quot;,&quot;CapitalLatitude&quot;:&quot;14.916666666666666&quot;,&quot;CapitalLongitude&quot;:&quot;-23.516667&quot;,&quot;CountryCode&quot;:&quot;CV&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;7.7&quot;, &quot;f&quot;: &quot;2.6&quot;},{&quot;CountryName&quot;:&quot;Cayman Islands&quot;,&quot;CapitalName&quot;:&quot;George Town&quot;,&quot;CapitalLatitude&quot;:&quot;19.3&quot;,&quot;CapitalLongitude&quot;:&quot;-81.383333&quot;,&quot;CountryCode&quot;:&quot;KY&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;12.9&quot;, &quot;f&quot;: &quot;1.8&quot;},{&quot;CountryName&quot;:&quot;Central African Republic&quot;,&quot;CapitalName&quot;:&quot;Bangui&quot;,&quot;CapitalLatitude&quot;:&quot;4.366666666666666&quot;,&quot;CapitalLongitude&quot;:&quot;18.583333&quot;,&quot;CountryCode&quot;:&quot;CF&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;10.1&quot;, &quot;f&quot;: &quot;1.7&quot;},{&quot;CountryName&quot;:&quot;Chad&quot;,&quot;CapitalName&quot;:&quot;N&#39;Djamena&quot;,&quot;CapitalLatitude&quot;:&quot;12.1&quot;,&quot;CapitalLongitude&quot;:&quot;15.033333&quot;,&quot;CountryCode&quot;:&quot;TD&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;5.2&quot;, &quot;f&quot;: &quot;2.1&quot;},{&quot;CountryName&quot;:&quot;Chile&quot;,&quot;CapitalName&quot;:&quot;Santiago&quot;,&quot;CapitalLatitude&quot;:&quot;-33.45&quot;,&quot;CapitalLongitude&quot;:&quot;-70.666667&quot;,&quot;CountryCode&quot;:&quot;CL&quot;,&quot;ContinentName&quot;:&quot;South America&quot;, &quot;m&quot;: &quot;2.5&quot;, &quot;f&quot;: &quot;0.6&quot;},{&quot;CountryName&quot;:&quot;China&quot;,&quot;CapitalName&quot;:&quot;Beijing&quot;,&quot;CapitalLatitude&quot;:&quot;39.916666666666664&quot;,&quot;CapitalLongitude&quot;:&quot;116.383333&quot;,&quot;CountryCode&quot;:&quot;CN&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;0.8&quot;, &quot;f&quot;: &quot;0.2&quot;},{&quot;CountryName&quot;:&quot;Colombia&quot;,&quot;CapitalName&quot;:&quot;Bogota&quot;,&quot;CapitalLatitude&quot;:&quot;4.6&quot;,&quot;CapitalLongitude&quot;:&quot;-74.083333&quot;,&quot;CountryCode&quot;:&quot;CO&quot;,&quot;ContinentName&quot;:&quot;South America&quot;, &quot;m&quot;: &quot;28.2&quot;, &quot;f&quot;: &quot;2.6&quot;},{&quot;CountryName&quot;:&quot;Comoros&quot;,&quot;CapitalName&quot;:&quot;Moroni&quot;,&quot;CapitalLatitude&quot;:&quot;-11.7&quot;,&quot;CapitalLongitude&quot;:&quot;43.233333&quot;,&quot;CountryCode&quot;:&quot;KM&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;7.1&quot;, &quot;f&quot;: &quot;2.9&quot;},{&quot;CountryName&quot;:&quot;Democratic Republic of the Congo&quot;,&quot;CapitalName&quot;:&quot;Kinshasa&quot;,&quot;CapitalLatitude&quot;:&quot;-4.316666666666666&quot;,&quot;CapitalLongitude&quot;:&quot;15.300000&quot;,&quot;CountryCode&quot;:&quot;CD&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;22.9&quot;, &quot;f&quot;: &quot;5.4&quot;},{&quot;CountryName&quot;:&quot;Republic of Congo&quot;,&quot;CapitalName&quot;:&quot;Brazzaville&quot;,&quot;CapitalLatitude&quot;:&quot;-4.25&quot;,&quot;CapitalLongitude&quot;:&quot;15.283333&quot;,&quot;CountryCode&quot;:&quot;CG&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;10.5&quot;, &quot;f&quot;: &quot;2.0&quot;},{&quot;CountryName&quot;:&quot;Costa Rica&quot;,&quot;CapitalName&quot;:&quot;San Jose&quot;,&quot;CapitalLatitude&quot;:&quot;9.933333333333334&quot;,&quot;CapitalLongitude&quot;:&quot;-84.083333&quot;,&quot;CountryCode&quot;:&quot;CR&quot;,&quot;ContinentName&quot;:&quot;Central America&quot;, &quot;m&quot;: &quot;7.5&quot;, &quot;f&quot;: &quot;1.0&quot;},{&quot;CountryName&quot;:&quot;Cote d&#39;Ivoire&quot;,&quot;CapitalName&quot;:&quot;Yamoussoukro&quot;,&quot;CapitalLatitude&quot;:&quot;6.816666666666666&quot;,&quot;CapitalLongitude&quot;:&quot;-5.266667&quot;,&quot;CountryCode&quot;:&quot;CI&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;10.3&quot;, &quot;f&quot;: &quot;3.3&quot;},{&quot;CountryName&quot;:&quot;Croatia&quot;,&quot;CapitalName&quot;:&quot;Zagreb&quot;,&quot;CapitalLatitude&quot;:&quot;45.8&quot;,&quot;CapitalLongitude&quot;:&quot;16.000000&quot;,&quot;CountryCode&quot;:&quot;HR&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.8&quot;, &quot;f&quot;: &quot;0.4&quot;},{&quot;CountryName&quot;:&quot;Cuba&quot;,&quot;CapitalName&quot;:&quot;Havana&quot;,&quot;CapitalLatitude&quot;:&quot;23.116666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;-82.350000&quot;,&quot;CountryCode&quot;:&quot;CU&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;3.2&quot;, &quot;f&quot;: &quot;1.1&quot;},{&quot;CountryName&quot;:&quot;Cyprus&quot;,&quot;CapitalName&quot;:&quot;Nicosia&quot;,&quot;CapitalLatitude&quot;:&quot;35.166666666666664&quot;,&quot;CapitalLongitude&quot;:&quot;33.366667&quot;,&quot;CountryCode&quot;:&quot;CY&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;1.5&quot;, &quot;f&quot;: &quot;0.5&quot;},{&quot;CountryName&quot;:&quot;Czech Republic&quot;,&quot;CapitalName&quot;:&quot;Prague&quot;,&quot;CapitalLatitude&quot;:&quot;50.083333333333336&quot;,&quot;CapitalLongitude&quot;:&quot;14.466667&quot;,&quot;CountryCode&quot;:&quot;CZ&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.5&quot;, &quot;f&quot;: &quot;0.5&quot;},{&quot;CountryName&quot;:&quot;Denmark&quot;,&quot;CapitalName&quot;:&quot;Copenhagen&quot;,&quot;CapitalLatitude&quot;:&quot;55.666666666666664&quot;,&quot;CapitalLongitude&quot;:&quot;12.583333&quot;,&quot;CountryCode&quot;:&quot;DK&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.5&quot;, &quot;f&quot;: &quot;0.3&quot;},{&quot;CountryName&quot;:&quot;Djibouti&quot;,&quot;CapitalName&quot;:&quot;Djibouti&quot;,&quot;CapitalLatitude&quot;:&quot;11.583333333333334&quot;,&quot;CapitalLongitude&quot;:&quot;43.150000&quot;,&quot;CountryCode&quot;:&quot;DJ&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;7.3&quot;, &quot;f&quot;: &quot;2.8&quot;},{&quot;CountryName&quot;:&quot;Dominica&quot;,&quot;CapitalName&quot;:&quot;Roseau&quot;,&quot;CapitalLatitude&quot;:&quot;15.3&quot;,&quot;CapitalLongitude&quot;:&quot;-61.400000&quot;,&quot;CountryCode&quot;:&quot;DM&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;18.5&quot;, &quot;f&quot;: &quot;2.6&quot;},{&quot;CountryName&quot;:&quot;Dominican Republic&quot;,&quot;CapitalName&quot;:&quot;Santo Domingo&quot;,&quot;CapitalLatitude&quot;:&quot;18.466666666666665&quot;,&quot;CapitalLongitude&quot;:&quot;-69.900000&quot;,&quot;CountryCode&quot;:&quot;DO&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;20.1&quot;, &quot;f&quot;: &quot;2.0&quot;},{&quot;CountryName&quot;:&quot;Ecuador&quot;,&quot;CapitalName&quot;:&quot;Quito&quot;,&quot;CapitalLatitude&quot;:&quot;-0.21666666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;-78.500000&quot;,&quot;CountryCode&quot;:&quot;EC&quot;,&quot;ContinentName&quot;:&quot;South America&quot;, &quot;m&quot;: &quot;11.4&quot;, &quot;f&quot;: &quot;1.0&quot;},{&quot;CountryName&quot;:&quot;Egypt&quot;,&quot;CapitalName&quot;:&quot;Cairo&quot;,&quot;CapitalLatitude&quot;:&quot;30.05&quot;,&quot;CapitalLongitude&quot;:&quot;31.250000&quot;,&quot;CountryCode&quot;:&quot;EG&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;3.0&quot;, &quot;f&quot;: &quot;0.4&quot;},{&quot;CountryName&quot;:&quot;El Salvador&quot;,&quot;CapitalName&quot;:&quot;San Salvador&quot;,&quot;CapitalLatitude&quot;:&quot;13.7&quot;,&quot;CapitalLongitude&quot;:&quot;-89.200000&quot;,&quot;CountryCode&quot;:&quot;SV&quot;,&quot;ContinentName&quot;:&quot;Central America&quot;, &quot;m&quot;: &quot;36.7&quot;, &quot;f&quot;: &quot;4.5&quot;},{&quot;CountryName&quot;:&quot;Equatorial Guinea&quot;,&quot;CapitalName&quot;:&quot;Malabo&quot;,&quot;CapitalLatitude&quot;:&quot;3.75&quot;,&quot;CapitalLongitude&quot;:&quot;8.783333&quot;,&quot;CountryCode&quot;:&quot;GQ&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;15.9&quot;, &quot;f&quot;: &quot;3.4&quot;},{&quot;CountryName&quot;:&quot;Eritrea&quot;,&quot;CapitalName&quot;:&quot;Asmara&quot;,&quot;CapitalLatitude&quot;:&quot;15.333333333333334&quot;,&quot;CapitalLongitude&quot;:&quot;38.933333&quot;,&quot;CountryCode&quot;:&quot;ER&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;5.3&quot;, &quot;f&quot;: &quot;1.8&quot;},{&quot;CountryName&quot;:&quot;Estonia&quot;,&quot;CapitalName&quot;:&quot;Tallinn&quot;,&quot;CapitalLatitude&quot;:&quot;59.43333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;24.716667&quot;,&quot;CountryCode&quot;:&quot;EE&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;3.8&quot;, &quot;f&quot;: &quot;1.2&quot;},{&quot;CountryName&quot;:&quot;Ethiopia&quot;,&quot;CapitalName&quot;:&quot;Addis Ababa&quot;,&quot;CapitalLatitude&quot;:&quot;9.033333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;38.700000&quot;,&quot;CountryCode&quot;:&quot;ET&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;9.3&quot;, &quot;f&quot;: &quot;2.7&quot;},{&quot;CountryName&quot;:&quot;Fiji&quot;,&quot;CapitalName&quot;:&quot;Suva&quot;,&quot;CapitalLatitude&quot;:&quot;-18.133333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;178.416667&quot;,&quot;CountryCode&quot;:&quot;FJ&quot;,&quot;ContinentName&quot;:&quot;Australia&quot;, &quot;m&quot;: &quot;2.5&quot;, &quot;f&quot;: &quot;1.5&quot;},{&quot;CountryName&quot;:&quot;Finland&quot;,&quot;CapitalName&quot;:&quot;Helsinki&quot;,&quot;CapitalLatitude&quot;:&quot;60.166666666666664&quot;,&quot;CapitalLongitude&quot;:&quot;24.933333&quot;,&quot;CountryCode&quot;:&quot;FI&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.9&quot;, &quot;f&quot;: &quot;0.7&quot;},{&quot;CountryName&quot;:&quot;France&quot;,&quot;CapitalName&quot;:&quot;Paris&quot;,&quot;CapitalLatitude&quot;:&quot;48.86666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;2.333333&quot;,&quot;CountryCode&quot;:&quot;FR&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.6&quot;, &quot;f&quot;: &quot;0.4&quot;},{&quot;CountryName&quot;:&quot;Gabon&quot;,&quot;CapitalName&quot;:&quot;Libreville&quot;,&quot;CapitalLatitude&quot;:&quot;0.38333333333333336&quot;,&quot;CapitalLongitude&quot;:&quot;9.450000&quot;,&quot;CountryCode&quot;:&quot;GA&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;7.6&quot;, &quot;f&quot;: &quot;1.5&quot;},{&quot;CountryName&quot;:&quot;The Gambia&quot;,&quot;CapitalName&quot;:&quot;Banjul&quot;,&quot;CapitalLatitude&quot;:&quot;13.45&quot;,&quot;CapitalLongitude&quot;:&quot;-16.566667&quot;,&quot;CountryCode&quot;:&quot;GM&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;7.0&quot;, &quot;f&quot;: &quot;3.2&quot;},{&quot;CountryName&quot;:&quot;Georgia&quot;,&quot;CapitalName&quot;:&quot;Tbilisi&quot;,&quot;CapitalLatitude&quot;:&quot;41.68333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;44.833333&quot;,&quot;CountryCode&quot;:&quot;GE&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;3.3&quot;, &quot;f&quot;: &quot;1.0&quot;},{&quot;CountryName&quot;:&quot;Germany&quot;,&quot;CapitalName&quot;:&quot;Berlin&quot;,&quot;CapitalLatitude&quot;:&quot;52.516666666666666&quot;,&quot;CapitalLongitude&quot;:&quot;13.400000&quot;,&quot;CountryCode&quot;:&quot;DE&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.4&quot;, &quot;f&quot;: &quot;0.4&quot;},{&quot;CountryName&quot;:&quot;Ghana&quot;,&quot;CapitalName&quot;:&quot;Accra&quot;,&quot;CapitalLatitude&quot;:&quot;5.55&quot;,&quot;CapitalLongitude&quot;:&quot;-0.216667&quot;,&quot;CountryCode&quot;:&quot;GH&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;3.9&quot;, &quot;f&quot;: &quot;2.2&quot;},{&quot;CountryName&quot;:&quot;Greece&quot;,&quot;CapitalName&quot;:&quot;Athens&quot;,&quot;CapitalLatitude&quot;:&quot;37.983333333333334&quot;,&quot;CapitalLongitude&quot;:&quot;23.733333&quot;,&quot;CountryCode&quot;:&quot;GR&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;1.6&quot;, &quot;f&quot;: &quot;0.1&quot;},{&quot;CountryName&quot;:&quot;Grenada&quot;,&quot;CapitalName&quot;:&quot;Saint George&#39;s&quot;,&quot;CapitalLatitude&quot;:&quot;12.05&quot;,&quot;CapitalLongitude&quot;:&quot;-61.750000&quot;,&quot;CountryCode&quot;:&quot;GD&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;8.6&quot;, &quot;f&quot;: &quot;4.7&quot;},{&quot;CountryName&quot;:&quot;Guatemala&quot;,&quot;CapitalName&quot;:&quot;Guatemala City&quot;,&quot;CapitalLatitude&quot;:&quot;14.616666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;-90.516667&quot;,&quot;CountryCode&quot;:&quot;GT&quot;,&quot;ContinentName&quot;:&quot;Central America&quot;, &quot;m&quot;: &quot;35.5&quot;, &quot;f&quot;: &quot;4.4&quot;},{&quot;CountryName&quot;:&quot;Guinea&quot;,&quot;CapitalName&quot;:&quot;Conakry&quot;,&quot;CapitalLatitude&quot;:&quot;9.5&quot;,&quot;CapitalLongitude&quot;:&quot;-13.700000&quot;,&quot;CountryCode&quot;:&quot;GN&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;6.2&quot;, &quot;f&quot;: &quot;2.7&quot;},{&quot;CountryName&quot;:&quot;Guinea-Bissau&quot;,&quot;CapitalName&quot;:&quot;Bissau&quot;,&quot;CapitalLatitude&quot;:&quot;11.85&quot;,&quot;CapitalLongitude&quot;:&quot;-15.583333&quot;,&quot;CountryCode&quot;:&quot;GW&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;5.9&quot;, &quot;f&quot;: &quot;2.5&quot;},{&quot;CountryName&quot;:&quot;Guyana&quot;,&quot;CapitalName&quot;:&quot;Georgetown&quot;,&quot;CapitalLatitude&quot;:&quot;6.8&quot;,&quot;CapitalLongitude&quot;:&quot;-58.150000&quot;,&quot;CountryCode&quot;:&quot;GY&quot;,&quot;ContinentName&quot;:&quot;South America&quot;, &quot;m&quot;: &quot;10.2&quot;, &quot;f&quot;: &quot;6.8&quot;},{&quot;CountryName&quot;:&quot;Haiti&quot;,&quot;CapitalName&quot;:&quot;Port-au-Prince&quot;,&quot;CapitalLatitude&quot;:&quot;18.533333333333335&quot;,&quot;CapitalLongitude&quot;:&quot;-72.333333&quot;,&quot;CountryCode&quot;:&quot;HT&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;8.0&quot;, &quot;f&quot;: &quot;2.2&quot;},{&quot;CountryName&quot;:&quot;Honduras&quot;,&quot;CapitalName&quot;:&quot;Tegucigalpa&quot;,&quot;CapitalLatitude&quot;:&quot;14.1&quot;,&quot;CapitalLongitude&quot;:&quot;-87.216667&quot;,&quot;CountryCode&quot;:&quot;HN&quot;,&quot;ContinentName&quot;:&quot;Central America&quot;, &quot;m&quot;: &quot;84.3&quot;, &quot;f&quot;: &quot;6.1&quot;},{&quot;CountryName&quot;:&quot;Hungary&quot;,&quot;CapitalName&quot;:&quot;Budapest&quot;,&quot;CapitalLatitude&quot;:&quot;47.5&quot;,&quot;CapitalLongitude&quot;:&quot;19.083333&quot;,&quot;CountryCode&quot;:&quot;HU&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.8&quot;, &quot;f&quot;: &quot;0.5&quot;},{&quot;CountryName&quot;:&quot;Iceland&quot;,&quot;CapitalName&quot;:&quot;Reykjavik&quot;,&quot;CapitalLatitude&quot;:&quot;64.15&quot;,&quot;CapitalLongitude&quot;:&quot;-21.950000&quot;,&quot;CountryCode&quot;:&quot;IS&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.0&quot;, &quot;f&quot;: &quot;0.3&quot;},{&quot;CountryName&quot;:&quot;India&quot;,&quot;CapitalName&quot;:&quot;New Delhi&quot;,&quot;CapitalLatitude&quot;:&quot;28.6&quot;,&quot;CapitalLongitude&quot;:&quot;77.200000&quot;,&quot;CountryCode&quot;:&quot;IN&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;2.1&quot;, &quot;f&quot;: &quot;1.4&quot;},{&quot;CountryName&quot;:&quot;Indonesia&quot;,&quot;CapitalName&quot;:&quot;Jakarta&quot;,&quot;CapitalLatitude&quot;:&quot;-6.166666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;106.816667&quot;,&quot;CountryCode&quot;:&quot;ID&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;0.5&quot;, &quot;f&quot;: &quot;0.1&quot;},{&quot;CountryName&quot;:&quot;Iran&quot;,&quot;CapitalName&quot;:&quot;Tehran&quot;,&quot;CapitalLatitude&quot;:&quot;35.7&quot;,&quot;CapitalLongitude&quot;:&quot;51.416667&quot;,&quot;CountryCode&quot;:&quot;IR&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;3.4&quot;, &quot;f&quot;: &quot;0.7&quot;},{&quot;CountryName&quot;:&quot;Iraq&quot;,&quot;CapitalName&quot;:&quot;Baghdad&quot;,&quot;CapitalLatitude&quot;:&quot;33.333333333333336&quot;,&quot;CapitalLongitude&quot;:&quot;44.400000&quot;,&quot;CountryCode&quot;:&quot;IQ&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;5.5&quot;, &quot;f&quot;: &quot;2.5&quot;},{&quot;CountryName&quot;:&quot;Ireland&quot;,&quot;CapitalName&quot;:&quot;Dublin&quot;,&quot;CapitalLatitude&quot;:&quot;53.31666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;-6.233333&quot;,&quot;CountryCode&quot;:&quot;IE&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;1.0&quot;, &quot;f&quot;: &quot;0.2&quot;},{&quot;CountryName&quot;:&quot;Israel&quot;,&quot;CapitalName&quot;:&quot;Jerusalem&quot;,&quot;CapitalLatitude&quot;:&quot;31.766666666666666&quot;,&quot;CapitalLongitude&quot;:&quot;35.233333&quot;,&quot;CountryCode&quot;:&quot;IL&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;1.3&quot;, &quot;f&quot;: &quot;0.5&quot;},{&quot;CountryName&quot;:&quot;Italy&quot;,&quot;CapitalName&quot;:&quot;Rome&quot;,&quot;CapitalLatitude&quot;:&quot;41.9&quot;,&quot;CapitalLongitude&quot;:&quot;12.483333&quot;,&quot;CountryCode&quot;:&quot;IT&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.6&quot;, &quot;f&quot;: &quot;0.3&quot;},{&quot;CountryName&quot;:&quot;Jamaica&quot;,&quot;CapitalName&quot;:&quot;Kingston&quot;,&quot;CapitalLatitude&quot;:&quot;18&quot;,&quot;CapitalLongitude&quot;:&quot;-76.800000&quot;,&quot;CountryCode&quot;:&quot;JM&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;35.2&quot;, &quot;f&quot;: &quot;4.1&quot;},{&quot;CountryName&quot;:&quot;Japan&quot;,&quot;CapitalName&quot;:&quot;Tokyo&quot;,&quot;CapitalLatitude&quot;:&quot;35.68333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;139.750000&quot;,&quot;CountryCode&quot;:&quot;JP&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;0.1&quot;, &quot;f&quot;: &quot;0.2&quot;},{&quot;CountryName&quot;:&quot;Jordan&quot;,&quot;CapitalName&quot;:&quot;Amman&quot;,&quot;CapitalLatitude&quot;:&quot;31.95&quot;,&quot;CapitalLongitude&quot;:&quot;35.933333&quot;,&quot;CountryCode&quot;:&quot;JO&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;1.5&quot;, &quot;f&quot;: &quot;0.5&quot;},{&quot;CountryName&quot;:&quot;Kazakhstan&quot;,&quot;CapitalName&quot;:&quot;Astana&quot;,&quot;CapitalLatitude&quot;:&quot;51.166666666666664&quot;,&quot;CapitalLongitude&quot;:&quot;71.416667&quot;,&quot;CountryCode&quot;:&quot;KZ&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;6.4&quot;, &quot;f&quot;: &quot;1.4&quot;},{&quot;CountryName&quot;:&quot;Kenya&quot;,&quot;CapitalName&quot;:&quot;Nairobi&quot;,&quot;CapitalLatitude&quot;:&quot;-1.2833333333333332&quot;,&quot;CapitalLongitude&quot;:&quot;36.816667&quot;,&quot;CountryCode&quot;:&quot;KE&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;4.9&quot;, &quot;f&quot;: &quot;1.5&quot;},{&quot;CountryName&quot;:&quot;Kiribati&quot;,&quot;CapitalName&quot;:&quot;Tarawa&quot;,&quot;CapitalLatitude&quot;:&quot;-0.8833333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;169.533333&quot;,&quot;CountryCode&quot;:&quot;KI&quot;,&quot;ContinentName&quot;:&quot;Australia&quot;, &quot;m&quot;: &quot;5.7&quot;, &quot;f&quot;: &quot;2.5&quot;},{&quot;CountryName&quot;:&quot;North Korea&quot;,&quot;CapitalName&quot;:&quot;Pyongyang&quot;,&quot;CapitalLatitude&quot;:&quot;39.016666666666666&quot;,&quot;CapitalLongitude&quot;:&quot;125.750000&quot;,&quot;CountryCode&quot;:&quot;KP&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;4.0&quot;, &quot;f&quot;: &quot;1.2&quot;},{&quot;CountryName&quot;:&quot;South Korea&quot;,&quot;CapitalName&quot;:&quot;Seoul&quot;,&quot;CapitalLatitude&quot;:&quot;37.55&quot;,&quot;CapitalLongitude&quot;:&quot;126.983333&quot;,&quot;CountryCode&quot;:&quot;KR&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;0.4&quot;, &quot;f&quot;: &quot;0.5&quot;},{&quot;CountryName&quot;:&quot;Kuwait&quot;,&quot;CapitalName&quot;:&quot;Kuwait City&quot;,&quot;CapitalLatitude&quot;:&quot;29.366666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;47.966667&quot;,&quot;CountryCode&quot;:&quot;KW&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;0.3&quot;, &quot;f&quot;: &quot;0.1&quot;},{&quot;CountryName&quot;:&quot;Kyrgyzstan&quot;,&quot;CapitalName&quot;:&quot;Bishkek&quot;,&quot;CapitalLatitude&quot;:&quot;42.86666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;74.600000&quot;,&quot;CountryCode&quot;:&quot;KG&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;6.3&quot;, &quot;f&quot;: &quot;2.8&quot;},{&quot;CountryName&quot;:&quot;Laos&quot;,&quot;CapitalName&quot;:&quot;Vientiane&quot;,&quot;CapitalLatitude&quot;:&quot;17.966666666666665&quot;,&quot;CapitalLongitude&quot;:&quot;102.600000&quot;,&quot;CountryCode&quot;:&quot;LA&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;4.7&quot;, &quot;f&quot;: &quot;1.2&quot;},{&quot;CountryName&quot;:&quot;Latvia&quot;,&quot;CapitalName&quot;:&quot;Riga&quot;,&quot;CapitalLatitude&quot;:&quot;56.95&quot;,&quot;CapitalLongitude&quot;:&quot;24.100000&quot;,&quot;CountryCode&quot;:&quot;LV&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;2.3&quot;, &quot;f&quot;: &quot;2.4&quot;},{&quot;CountryName&quot;:&quot;Lebanon&quot;,&quot;CapitalName&quot;:&quot;Beirut&quot;,&quot;CapitalLatitude&quot;:&quot;33.86666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;35.500000&quot;,&quot;CountryCode&quot;:&quot;LB&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;1.7&quot;, &quot;f&quot;: &quot;0.5&quot;},{&quot;CountryName&quot;:&quot;Lesotho&quot;,&quot;CapitalName&quot;:&quot;Maseru&quot;,&quot;CapitalLatitude&quot;:&quot;-29.316666666666666&quot;,&quot;CapitalLongitude&quot;:&quot;27.483333&quot;,&quot;CountryCode&quot;:&quot;LS&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;28.1&quot;, &quot;f&quot;: &quot;9.9&quot;},{&quot;CountryName&quot;:&quot;Liberia&quot;,&quot;CapitalName&quot;:&quot;Monrovia&quot;,&quot;CapitalLatitude&quot;:&quot;6.3&quot;,&quot;CapitalLongitude&quot;:&quot;-10.800000&quot;,&quot;CountryCode&quot;:&quot;LR&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;2.2&quot;, &quot;f&quot;: &quot;1.1&quot;},{&quot;CountryName&quot;:&quot;Libya&quot;,&quot;CapitalName&quot;:&quot;Tripoli&quot;,&quot;CapitalLatitude&quot;:&quot;32.88333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;13.166667&quot;,&quot;CountryCode&quot;:&quot;LY&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;1.3&quot;, &quot;f&quot;: &quot;0.4&quot;},{&quot;CountryName&quot;:&quot;Lithuania&quot;,&quot;CapitalName&quot;:&quot;Vilnius&quot;,&quot;CapitalLatitude&quot;:&quot;54.68333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;25.316667&quot;,&quot;CountryCode&quot;:&quot;LT&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;4.9&quot;, &quot;f&quot;: &quot;1.8&quot;},{&quot;CountryName&quot;:&quot;Luxembourg&quot;,&quot;CapitalName&quot;:&quot;Luxembourg&quot;,&quot;CapitalLatitude&quot;:&quot;49.6&quot;,&quot;CapitalLongitude&quot;:&quot;6.116667&quot;,&quot;CountryCode&quot;:&quot;LU&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.8&quot;, &quot;f&quot;: &quot;0.0&quot;},{&quot;CountryName&quot;:&quot;Macedonia&quot;,&quot;CapitalName&quot;:&quot;Skopje&quot;,&quot;CapitalLatitude&quot;:&quot;42&quot;,&quot;CapitalLongitude&quot;:&quot;21.433333&quot;,&quot;CountryCode&quot;:&quot;MK&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;1.2&quot;, &quot;f&quot;: &quot;0.2&quot;},{&quot;CountryName&quot;:&quot;Madagascar&quot;,&quot;CapitalName&quot;:&quot;Antananarivo&quot;,&quot;CapitalLatitude&quot;:&quot;-18.916666666666668&quot;,&quot;CapitalLongitude&quot;:&quot;47.516667&quot;,&quot;CountryCode&quot;:&quot;MG&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;7.9&quot;, &quot;f&quot;: &quot;3.2&quot;},{&quot;CountryName&quot;:&quot;Malawi&quot;,&quot;CapitalName&quot;:&quot;Lilongwe&quot;,&quot;CapitalLatitude&quot;:&quot;-13.966666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;33.783333&quot;,&quot;CountryCode&quot;:&quot;MW&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;1.6&quot;, &quot;f&quot;: &quot;0.2&quot;},{&quot;CountryName&quot;:&quot;Malaysia&quot;,&quot;CapitalName&quot;:&quot;Kuala Lumpur&quot;,&quot;CapitalLatitude&quot;:&quot;3.1666666666666665&quot;,&quot;CapitalLongitude&quot;:&quot;101.700000&quot;,&quot;CountryCode&quot;:&quot;MY&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;1.7&quot;, &quot;f&quot;: &quot;0.6&quot;},{&quot;CountryName&quot;:&quot;Maldives&quot;,&quot;CapitalName&quot;:&quot;Male&quot;,&quot;CapitalLatitude&quot;:&quot;4.166666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;73.500000&quot;,&quot;CountryCode&quot;:&quot;MV&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;2.5&quot;, &quot;f&quot;: &quot;1.4&quot;},{&quot;CountryName&quot;:&quot;Mali&quot;,&quot;CapitalName&quot;:&quot;Bamako&quot;,&quot;CapitalLatitude&quot;:&quot;12.65&quot;,&quot;CapitalLongitude&quot;:&quot;-8.000000&quot;,&quot;CountryCode&quot;:&quot;ML&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;4.9&quot;, &quot;f&quot;: &quot;2.6&quot;},{&quot;CountryName&quot;:&quot;Malta&quot;,&quot;CapitalName&quot;:&quot;Valletta&quot;,&quot;CapitalLatitude&quot;:&quot;35.88333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;14.500000&quot;,&quot;CountryCode&quot;:&quot;MT&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;2.1&quot;, &quot;f&quot;: &quot;0.7&quot;},{&quot;CountryName&quot;:&quot;Marshall Islands&quot;,&quot;CapitalName&quot;:&quot;Majuro&quot;,&quot;CapitalLatitude&quot;:&quot;7.1&quot;,&quot;CapitalLongitude&quot;:&quot;171.383333&quot;,&quot;CountryCode&quot;:&quot;MH&quot;,&quot;ContinentName&quot;:&quot;Australia&quot;, &quot;m&quot;: &quot;3.8&quot;, &quot;f&quot;: &quot;0.9&quot;},{&quot;CountryName&quot;:&quot;Mauritania&quot;,&quot;CapitalName&quot;:&quot;Nouakchott&quot;,&quot;CapitalLatitude&quot;:&quot;18.066666666666666&quot;,&quot;CapitalLongitude&quot;:&quot;-15.966667&quot;,&quot;CountryCode&quot;:&quot;MR&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;3.4&quot;, &quot;f&quot;: &quot;1.6&quot;},{&quot;CountryName&quot;:&quot;Mauritius&quot;,&quot;CapitalName&quot;:&quot;Port Louis&quot;,&quot;CapitalLatitude&quot;:&quot;-20.15&quot;,&quot;CapitalLongitude&quot;:&quot;57.483333&quot;,&quot;CountryCode&quot;:&quot;MU&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;2.1&quot;, &quot;f&quot;: &quot;0.7&quot;},{&quot;CountryName&quot;:&quot;Mexico&quot;,&quot;CapitalName&quot;:&quot;Mexico City&quot;,&quot;CapitalLatitude&quot;:&quot;19.433333333333334&quot;,&quot;CapitalLongitude&quot;:&quot;-99.133333&quot;,&quot;CountryCode&quot;:&quot;MX&quot;,&quot;ContinentName&quot;:&quot;Central America&quot;, &quot;m&quot;: &quot;19.2&quot;, &quot;f&quot;: &quot;2.3&quot;},{&quot;CountryName&quot;:&quot;Federated States of Micronesia&quot;,&quot;CapitalName&quot;:&quot;Palikir&quot;,&quot;CapitalLatitude&quot;:&quot;6.916666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;158.150000&quot;,&quot;CountryCode&quot;:&quot;FM&quot;,&quot;ContinentName&quot;:&quot;Australia&quot;, &quot;m&quot;: &quot;3.4&quot;, &quot;f&quot;: &quot;1.2&quot;},{&quot;CountryName&quot;:&quot;Mongolia&quot;,&quot;CapitalName&quot;:&quot;Ulaanbaatar&quot;,&quot;CapitalLatitude&quot;:&quot;47.916666666666664&quot;,&quot;CapitalLongitude&quot;:&quot;106.916667&quot;,&quot;CountryCode&quot;:&quot;MN&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;7.5&quot;, &quot;f&quot;: &quot;2.2&quot;},{&quot;CountryName&quot;:&quot;Montenegro&quot;,&quot;CapitalName&quot;:&quot;Podgorica&quot;,&quot;CapitalLatitude&quot;:&quot;42.43333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;19.266667&quot;,&quot;CountryCode&quot;:&quot;ME&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;2.2&quot;, &quot;f&quot;: &quot;0.5&quot;},{&quot;CountryName&quot;:&quot;Montserrat&quot;,&quot;CapitalName&quot;:&quot;Plymouth&quot;,&quot;CapitalLatitude&quot;:&quot;16.7&quot;,&quot;CapitalLongitude&quot;:&quot;-62.216667&quot;,&quot;CountryCode&quot;:&quot;MS&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;20.4&quot;, &quot;f&quot;: &quot;0.0&quot;},{&quot;CountryName&quot;:&quot;Morocco&quot;,&quot;CapitalName&quot;:&quot;Rabat&quot;,&quot;CapitalLatitude&quot;:&quot;34.016666666666666&quot;,&quot;CapitalLongitude&quot;:&quot;-6.816667&quot;,&quot;CountryCode&quot;:&quot;MA&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;1.9&quot;, &quot;f&quot;: &quot;0.3&quot;},{&quot;CountryName&quot;:&quot;Mozambique&quot;,&quot;CapitalName&quot;:&quot;Maputo&quot;,&quot;CapitalLatitude&quot;:&quot;-25.95&quot;,&quot;CapitalLongitude&quot;:&quot;32.583333&quot;,&quot;CountryCode&quot;:&quot;MZ&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;9.4&quot;, &quot;f&quot;: &quot;3.0&quot;},{&quot;CountryName&quot;:&quot;Namibia&quot;,&quot;CapitalName&quot;:&quot;Windhoek&quot;,&quot;CapitalLatitude&quot;:&quot;-22.566666666666666&quot;,&quot;CapitalLongitude&quot;:&quot;17.083333&quot;,&quot;CountryCode&quot;:&quot;NA&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;13.1&quot;, &quot;f&quot;: &quot;4.1&quot;},{&quot;CountryName&quot;:&quot;Nepal&quot;,&quot;CapitalName&quot;:&quot;Kathmandu&quot;,&quot;CapitalLatitude&quot;:&quot;27.716666666666665&quot;,&quot;CapitalLongitude&quot;:&quot;85.316667&quot;,&quot;CountryCode&quot;:&quot;NP&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;2.2&quot;, &quot;f&quot;: &quot;0.7&quot;},{&quot;CountryName&quot;:&quot;Netherlands&quot;,&quot;CapitalName&quot;:&quot;Amsterdam&quot;,&quot;CapitalLatitude&quot;:&quot;52.35&quot;,&quot;CapitalLongitude&quot;:&quot;4.916667&quot;,&quot;CountryCode&quot;:&quot;NL&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.6&quot;, &quot;f&quot;: &quot;0.3&quot;},{&quot;CountryName&quot;:&quot;New Zealand&quot;,&quot;CapitalName&quot;:&quot;Wellington&quot;,&quot;CapitalLatitude&quot;:&quot;-41.3&quot;,&quot;CapitalLongitude&quot;:&quot;174.783333&quot;,&quot;CountryCode&quot;:&quot;NZ&quot;,&quot;ContinentName&quot;:&quot;Australia&quot;, &quot;m&quot;: &quot;0.4&quot;, &quot;f&quot;: &quot;0.5&quot;},{&quot;CountryName&quot;:&quot;Nicaragua&quot;,&quot;CapitalName&quot;:&quot;Managua&quot;,&quot;CapitalLatitude&quot;:&quot;12.133333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;-86.250000&quot;,&quot;CountryCode&quot;:&quot;NI&quot;,&quot;ContinentName&quot;:&quot;Central America&quot;, &quot;m&quot;: &quot;10.5&quot;, &quot;f&quot;: &quot;0.8&quot;},{&quot;CountryName&quot;:&quot;Niger&quot;,&quot;CapitalName&quot;:&quot;Niamey&quot;,&quot;CapitalLatitude&quot;:&quot;13.516666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;2.116667&quot;,&quot;CountryCode&quot;:&quot;NE&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;3.1&quot;, &quot;f&quot;: &quot;1.6&quot;},{&quot;CountryName&quot;:&quot;Nigeria&quot;,&quot;CapitalName&quot;:&quot;Abuja&quot;,&quot;CapitalLatitude&quot;:&quot;9.083333333333334&quot;,&quot;CapitalLongitude&quot;:&quot;7.533333&quot;,&quot;CountryCode&quot;:&quot;NG&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;13.6&quot;, &quot;f&quot;: &quot;6.4&quot;},{&quot;CountryName&quot;:&quot;Norway&quot;,&quot;CapitalName&quot;:&quot;Oslo&quot;,&quot;CapitalLatitude&quot;:&quot;59.916666666666664&quot;,&quot;CapitalLongitude&quot;:&quot;10.750000&quot;,&quot;CountryCode&quot;:&quot;NO&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;1.2&quot;, &quot;f&quot;: &quot;1.0&quot;},{&quot;CountryName&quot;:&quot;Oman&quot;,&quot;CapitalName&quot;:&quot;Muscat&quot;,&quot;CapitalLatitude&quot;:&quot;23.616666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;58.583333&quot;,&quot;CountryCode&quot;:&quot;OM&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;0.8&quot;, &quot;f&quot;: &quot;0.3&quot;},{&quot;CountryName&quot;:&quot;Pakistan&quot;,&quot;CapitalName&quot;:&quot;Islamabad&quot;,&quot;CapitalLatitude&quot;:&quot;33.68333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;73.050000&quot;,&quot;CountryCode&quot;:&quot;PK&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;5.9&quot;, &quot;f&quot;: &quot;1.8&quot;},{&quot;CountryName&quot;:&quot;Panama&quot;,&quot;CapitalName&quot;:&quot;Panama City&quot;,&quot;CapitalLatitude&quot;:&quot;8.966666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;-79.533333&quot;,&quot;CountryCode&quot;:&quot;PA&quot;,&quot;ContinentName&quot;:&quot;Central America&quot;, &quot;m&quot;: &quot;16.3&quot;, &quot;f&quot;: &quot;0.9&quot;},{&quot;CountryName&quot;:&quot;Papua New Guinea&quot;,&quot;CapitalName&quot;:&quot;Port Moresby&quot;,&quot;CapitalLatitude&quot;:&quot;-9.45&quot;,&quot;CapitalLongitude&quot;:&quot;147.183333&quot;,&quot;CountryCode&quot;:&quot;PG&quot;,&quot;ContinentName&quot;:&quot;Australia&quot;, &quot;m&quot;: &quot;7.7&quot;, &quot;f&quot;: &quot;2.7&quot;},{&quot;CountryName&quot;:&quot;Paraguay&quot;,&quot;CapitalName&quot;:&quot;Asuncion&quot;,&quot;CapitalLatitude&quot;:&quot;-25.266666666666666&quot;,&quot;CapitalLongitude&quot;:&quot;-57.666667&quot;,&quot;CountryCode&quot;:&quot;PY&quot;,&quot;ContinentName&quot;:&quot;South America&quot;, &quot;m&quot;: &quot;8.6&quot;, &quot;f&quot;: &quot;1.1&quot;},{&quot;CountryName&quot;:&quot;Peru&quot;,&quot;CapitalName&quot;:&quot;Lima&quot;,&quot;CapitalLatitude&quot;:&quot;-12.05&quot;,&quot;CapitalLongitude&quot;:&quot;-77.050000&quot;,&quot;CountryCode&quot;:&quot;PE&quot;,&quot;ContinentName&quot;:&quot;South America&quot;, &quot;m&quot;: &quot;7.5&quot;, &quot;f&quot;: &quot;2.1&quot;},{&quot;CountryName&quot;:&quot;Philippines&quot;,&quot;CapitalName&quot;:&quot;Manila&quot;,&quot;CapitalLatitude&quot;:&quot;14.6&quot;,&quot;CapitalLongitude&quot;:&quot;120.966667&quot;,&quot;CountryCode&quot;:&quot;PH&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;7.7&quot;, &quot;f&quot;: &quot;1.1&quot;},{&quot;CountryName&quot;:&quot;Poland&quot;,&quot;CapitalName&quot;:&quot;Warsaw&quot;,&quot;CapitalLatitude&quot;:&quot;52.25&quot;,&quot;CapitalLongitude&quot;:&quot;21.000000&quot;,&quot;CountryCode&quot;:&quot;PL&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.9&quot;, &quot;f&quot;: &quot;0.3&quot;},{&quot;CountryName&quot;:&quot;Portugal&quot;,&quot;CapitalName&quot;:&quot;Lisbon&quot;,&quot;CapitalLatitude&quot;:&quot;38.71666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;-9.133333&quot;,&quot;CountryCode&quot;:&quot;PT&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.8&quot;, &quot;f&quot;: &quot;0.4&quot;},{&quot;CountryName&quot;:&quot;Puerto Rico&quot;,&quot;CapitalName&quot;:&quot;San Juan&quot;,&quot;CapitalLatitude&quot;:&quot;18.466666666666665&quot;,&quot;CapitalLongitude&quot;:&quot;-66.116667&quot;,&quot;CountryCode&quot;:&quot;PR&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;24.9&quot;, &quot;f&quot;: &quot;1.6&quot;},{&quot;CountryName&quot;:&quot;Qatar&quot;,&quot;CapitalName&quot;:&quot;Doha&quot;,&quot;CapitalLatitude&quot;:&quot;25.283333333333335&quot;,&quot;CapitalLongitude&quot;:&quot;51.533333&quot;,&quot;CountryCode&quot;:&quot;QA&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;0.9&quot;, &quot;f&quot;: &quot;0.2&quot;},{&quot;CountryName&quot;:&quot;Romania&quot;,&quot;CapitalName&quot;:&quot;Bucharest&quot;,&quot;CapitalLatitude&quot;:&quot;44.43333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;26.100000&quot;,&quot;CountryCode&quot;:&quot;RO&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;1.1&quot;, &quot;f&quot;: &quot;0.6&quot;},{&quot;CountryName&quot;:&quot;Russia&quot;,&quot;CapitalName&quot;:&quot;Moscow&quot;,&quot;CapitalLatitude&quot;:&quot;55.75&quot;,&quot;CapitalLongitude&quot;:&quot;37.600000&quot;,&quot;CountryCode&quot;:&quot;RU&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;6.9&quot;, &quot;f&quot;: &quot;2.3&quot;},{&quot;CountryName&quot;:&quot;Rwanda&quot;,&quot;CapitalName&quot;:&quot;Kigali&quot;,&quot;CapitalLatitude&quot;:&quot;-1.95&quot;,&quot;CapitalLongitude&quot;:&quot;30.050000&quot;,&quot;CountryCode&quot;:&quot;RW&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;16.4&quot;, &quot;f&quot;: &quot;6.7&quot;},{&quot;CountryName&quot;:&quot;Saint Kitts and Nevis&quot;,&quot;CapitalName&quot;:&quot;Basseterre&quot;,&quot;CapitalLatitude&quot;:&quot;17.3&quot;,&quot;CapitalLongitude&quot;:&quot;-62.716667&quot;,&quot;CountryCode&quot;:&quot;KN&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;30.4&quot;, &quot;f&quot;: &quot;3.2&quot;},{&quot;CountryName&quot;:&quot;Saint Lucia&quot;,&quot;CapitalName&quot;:&quot;Castries&quot;,&quot;CapitalLatitude&quot;:&quot;14&quot;,&quot;CapitalLongitude&quot;:&quot;-61.000000&quot;,&quot;CountryCode&quot;:&quot;LC&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;17.2&quot;, &quot;f&quot;: &quot;4.4&quot;},{&quot;CountryName&quot;:&quot;Saint Vincent and the Grenadines&quot;,&quot;CapitalName&quot;:&quot;Kingstown&quot;,&quot;CapitalLatitude&quot;:&quot;13.133333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;-61.216667&quot;,&quot;CountryCode&quot;:&quot;VC&quot;,&quot;ContinentName&quot;:&quot;Central America&quot;, &quot;m&quot;: &quot;22.5&quot;, &quot;f&quot;: &quot;3.1&quot;},{&quot;CountryName&quot;:&quot;Samoa&quot;,&quot;CapitalName&quot;:&quot;Apia&quot;,&quot;CapitalLatitude&quot;:&quot;-13.816666666666666&quot;,&quot;CapitalLongitude&quot;:&quot;-171.766667&quot;,&quot;CountryCode&quot;:&quot;WS&quot;,&quot;ContinentName&quot;:&quot;Australia&quot;, &quot;m&quot;: &quot;2.9&quot;, &quot;f&quot;: &quot;0.7&quot;},{&quot;CountryName&quot;:&quot;Sao Tome and Principe&quot;,&quot;CapitalName&quot;:&quot;Sao Tome&quot;,&quot;CapitalLatitude&quot;:&quot;0.3333333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;6.733333&quot;,&quot;CountryCode&quot;:&quot;ST&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;2.5&quot;, &quot;f&quot;: &quot;0.8&quot;},{&quot;CountryName&quot;:&quot;Saudi Arabia&quot;,&quot;CapitalName&quot;:&quot;Riyadh&quot;,&quot;CapitalLatitude&quot;:&quot;24.65&quot;,&quot;CapitalLongitude&quot;:&quot;46.700000&quot;,&quot;CountryCode&quot;:&quot;SA&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;0.5&quot;, &quot;f&quot;: &quot;0.3&quot;},{&quot;CountryName&quot;:&quot;Senegal&quot;,&quot;CapitalName&quot;:&quot;Dakar&quot;,&quot;CapitalLatitude&quot;:&quot;14.733333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;-17.633333&quot;,&quot;CountryCode&quot;:&quot;SN&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;2.1&quot;, &quot;f&quot;: &quot;0.7&quot;},{&quot;CountryName&quot;:&quot;Serbia&quot;,&quot;CapitalName&quot;:&quot;Belgrade&quot;,&quot;CapitalLatitude&quot;:&quot;44.833333333333336&quot;,&quot;CapitalLongitude&quot;:&quot;20.500000&quot;,&quot;CountryCode&quot;:&quot;RS&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.8&quot;, &quot;f&quot;: &quot;0.4&quot;},{&quot;CountryName&quot;:&quot;Seychelles&quot;,&quot;CapitalName&quot;:&quot;Victoria&quot;,&quot;CapitalLatitude&quot;:&quot;-4.616666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;55.450000&quot;,&quot;CountryCode&quot;:&quot;SC&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;7.5&quot;, &quot;f&quot;: &quot;2.0&quot;},{&quot;CountryName&quot;:&quot;Sierra Leone&quot;,&quot;CapitalName&quot;:&quot;Freetown&quot;,&quot;CapitalLatitude&quot;:&quot;8.483333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;-13.233333&quot;,&quot;CountryCode&quot;:&quot;SL&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;1.5&quot;, &quot;f&quot;: &quot;0.4&quot;},{&quot;CountryName&quot;:&quot;Singapore&quot;,&quot;CapitalName&quot;:&quot;Singapore&quot;,&quot;CapitalLatitude&quot;:&quot;1.2833333333333332&quot;,&quot;CapitalLongitude&quot;:&quot;103.850000&quot;,&quot;CountryCode&quot;:&quot;SG&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;0.1&quot;, &quot;f&quot;: &quot;0.1&quot;},{&quot;CountryName&quot;:&quot;Slovakia&quot;,&quot;CapitalName&quot;:&quot;Bratislava&quot;,&quot;CapitalLatitude&quot;:&quot;48.15&quot;,&quot;CapitalLongitude&quot;:&quot;17.116667&quot;,&quot;CountryCode&quot;:&quot;SK&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;1.0&quot;, &quot;f&quot;: &quot;0.4&quot;},{&quot;CountryName&quot;:&quot;Slovenia&quot;,&quot;CapitalName&quot;:&quot;Ljubljana&quot;,&quot;CapitalLatitude&quot;:&quot;46.05&quot;,&quot;CapitalLongitude&quot;:&quot;14.516667&quot;,&quot;CountryCode&quot;:&quot;SI&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.4&quot;, &quot;f&quot;: &quot;0.3&quot;},{&quot;CountryName&quot;:&quot;Solomon Islands&quot;,&quot;CapitalName&quot;:&quot;Honiara&quot;,&quot;CapitalLatitude&quot;:&quot;-9.433333333333334&quot;,&quot;CapitalLongitude&quot;:&quot;159.950000&quot;,&quot;CountryCode&quot;:&quot;SB&quot;,&quot;ContinentName&quot;:&quot;Australia&quot;, &quot;m&quot;: &quot;3.2&quot;, &quot;f&quot;: &quot;1.1&quot;},{&quot;CountryName&quot;:&quot;Somalia&quot;,&quot;CapitalName&quot;:&quot;Mogadishu&quot;,&quot;CapitalLatitude&quot;:&quot;2.066666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;45.333333&quot;,&quot;CountryCode&quot;:&quot;SO&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;5.9&quot;, &quot;f&quot;: &quot;2.1&quot;},{&quot;CountryName&quot;:&quot;South Africa&quot;,&quot;CapitalName&quot;:&quot;Pretoria&quot;,&quot;CapitalLatitude&quot;:&quot;-25.7&quot;,&quot;CapitalLongitude&quot;:&quot;28.216667&quot;,&quot;CountryCode&quot;:&quot;ZA&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;26.2&quot;, &quot;f&quot;: &quot;4.8&quot;},{&quot;CountryName&quot;:&quot;South Sudan&quot;,&quot;CapitalName&quot;:&quot;Juba&quot;,&quot;CapitalLatitude&quot;:&quot;4.85&quot;,&quot;CapitalLongitude&quot;:&quot;31.616667&quot;,&quot;CountryCode&quot;:&quot;SS&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;11.5&quot;, &quot;f&quot;: &quot;2.4&quot;},{&quot;CountryName&quot;:&quot;Spain&quot;,&quot;CapitalName&quot;:&quot;Madrid&quot;,&quot;CapitalLatitude&quot;:&quot;40.4&quot;,&quot;CapitalLongitude&quot;:&quot;-3.683333&quot;,&quot;CountryCode&quot;:&quot;ES&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.5&quot;, &quot;f&quot;: &quot;0.3&quot;},{&quot;CountryName&quot;:&quot;Sri Lanka&quot;,&quot;CapitalName&quot;:&quot;Colombo&quot;,&quot;CapitalLatitude&quot;:&quot;6.916666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;79.833333&quot;,&quot;CountryCode&quot;:&quot;LK&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;2.9&quot;, &quot;f&quot;: &quot;0.5&quot;},{&quot;CountryName&quot;:&quot;Sudan&quot;,&quot;CapitalName&quot;:&quot;Khartoum&quot;,&quot;CapitalLatitude&quot;:&quot;15.6&quot;,&quot;CapitalLongitude&quot;:&quot;32.533333&quot;,&quot;CountryCode&quot;:&quot;SD&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;9.6&quot;, &quot;f&quot;: &quot;1.6&quot;},{&quot;CountryName&quot;:&quot;Suriname&quot;,&quot;CapitalName&quot;:&quot;Paramaribo&quot;,&quot;CapitalLatitude&quot;:&quot;5.833333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;-55.166667&quot;,&quot;CountryCode&quot;:&quot;SR&quot;,&quot;ContinentName&quot;:&quot;South America&quot;, &quot;m&quot;: &quot;4.6&quot;, &quot;f&quot;: &quot;1.5&quot;},{&quot;CountryName&quot;:&quot;Swaziland&quot;,&quot;CapitalName&quot;:&quot;Mbabane&quot;,&quot;CapitalLatitude&quot;:&quot;-26.316666666666666&quot;,&quot;CapitalLongitude&quot;:&quot;31.133333&quot;,&quot;CountryCode&quot;:&quot;SZ&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;26.3&quot;, &quot;f&quot;: &quot;7.5&quot;},{&quot;CountryName&quot;:&quot;Sweden&quot;,&quot;CapitalName&quot;:&quot;Stockholm&quot;,&quot;CapitalLatitude&quot;:&quot;59.333333333333336&quot;,&quot;CapitalLongitude&quot;:&quot;18.050000&quot;,&quot;CountryCode&quot;:&quot;SE&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.5&quot;, &quot;f&quot;: &quot;0.2&quot;},{&quot;CountryName&quot;:&quot;Switzerland&quot;,&quot;CapitalName&quot;:&quot;Bern&quot;,&quot;CapitalLatitude&quot;:&quot;46.916666666666664&quot;,&quot;CapitalLongitude&quot;:&quot;7.466667&quot;,&quot;CountryCode&quot;:&quot;CH&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.3&quot;, &quot;f&quot;: &quot;0.3&quot;},{&quot;CountryName&quot;:&quot;Syria&quot;,&quot;CapitalName&quot;:&quot;Damascus&quot;,&quot;CapitalLatitude&quot;:&quot;33.5&quot;,&quot;CapitalLongitude&quot;:&quot;36.300000&quot;,&quot;CountryCode&quot;:&quot;SY&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;1.8&quot;, &quot;f&quot;: &quot;0.4&quot;},{&quot;CountryName&quot;:&quot;Taiwan&quot;,&quot;CapitalName&quot;:&quot;Taipei&quot;,&quot;CapitalLatitude&quot;:&quot;25.033333333333335&quot;,&quot;CapitalLongitude&quot;:&quot;121.516667&quot;,&quot;CountryCode&quot;:&quot;TW&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;2.6&quot;, &quot;f&quot;: &quot;0.4&quot;},{&quot;CountryName&quot;:&quot;Tajikistan&quot;,&quot;CapitalName&quot;:&quot;Dushanbe&quot;,&quot;CapitalLatitude&quot;:&quot;38.55&quot;,&quot;CapitalLongitude&quot;:&quot;68.766667&quot;,&quot;CountryCode&quot;:&quot;TJ&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;1.4&quot;, &quot;f&quot;: &quot;0.2&quot;},</td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line">    {&quot;CountryName&quot;:&quot;Tanzania&quot;,&quot;CapitalName&quot;:&quot;Dar es Salaam&quot;,&quot;CapitalLatitude&quot;:&quot;-6.8&quot;,&quot;CapitalLongitude&quot;:&quot;39.283333&quot;,&quot;CountryCode&quot;:&quot;TZ&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;9.3&quot;, &quot;f&quot;: &quot;3.4&quot;},{&quot;CountryName&quot;:&quot;Thailand&quot;,&quot;CapitalName&quot;:&quot;Bangkok&quot;,&quot;CapitalLatitude&quot;:&quot;13.75&quot;,&quot;CapitalLongitude&quot;:&quot;100.516667&quot;,&quot;CountryCode&quot;:&quot;TH&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;4.4&quot;, &quot;f&quot;: &quot;0.6&quot;},{&quot;CountryName&quot;:&quot;Timor-Leste&quot;,&quot;CapitalName&quot;:&quot;Dili&quot;,&quot;CapitalLatitude&quot;:&quot;-8.583333333333334&quot;,&quot;CapitalLongitude&quot;:&quot;125.600000&quot;,&quot;CountryCode&quot;:&quot;TL&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;2.6&quot;, &quot;f&quot;: &quot;1.0&quot;},{&quot;CountryName&quot;:&quot;Togo&quot;,&quot;CapitalName&quot;:&quot;Lome&quot;,&quot;CapitalLatitude&quot;:&quot;6.116666666666666&quot;,&quot;CapitalLongitude&quot;:&quot;1.216667&quot;,&quot;CountryCode&quot;:&quot;TG&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;7.4&quot;, &quot;f&quot;: &quot;2.9&quot;},{&quot;CountryName&quot;:&quot;Tonga&quot;,&quot;CapitalName&quot;:&quot;Nuku&#39;alofa&quot;,&quot;CapitalLatitude&quot;:&quot;-21.133333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;-175.200000&quot;,&quot;CountryCode&quot;:&quot;TO&quot;,&quot;ContinentName&quot;:&quot;Australia&quot;, &quot;m&quot;: &quot;0.0&quot;, &quot;f&quot;: &quot;1.0&quot;},{&quot;CountryName&quot;:&quot;Trinidad and Tobago&quot;,&quot;CapitalName&quot;:&quot;Port of Spain&quot;,&quot;CapitalLatitude&quot;:&quot;10.65&quot;,&quot;CapitalLongitude&quot;:&quot;-61.516667&quot;,&quot;CountryCode&quot;:&quot;TT&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;26.0&quot;, &quot;f&quot;: &quot;2.3&quot;},{&quot;CountryName&quot;:&quot;Tunisia&quot;,&quot;CapitalName&quot;:&quot;Tunis&quot;,&quot;CapitalLatitude&quot;:&quot;36.8&quot;,&quot;CapitalLongitude&quot;:&quot;10.183333&quot;,&quot;CountryCode&quot;:&quot;TN&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;1.7&quot;, &quot;f&quot;: &quot;0.5&quot;},{&quot;CountryName&quot;:&quot;Turkey&quot;,&quot;CapitalName&quot;:&quot;Ankara&quot;,&quot;CapitalLatitude&quot;:&quot;39.93333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;32.866667&quot;,&quot;CountryCode&quot;:&quot;TR&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;2.1&quot;, &quot;f&quot;: &quot;0.5&quot;},{&quot;CountryName&quot;:&quot;Turkmenistan&quot;,&quot;CapitalName&quot;:&quot;Ashgabat&quot;,&quot;CapitalLatitude&quot;:&quot;37.95&quot;,&quot;CapitalLongitude&quot;:&quot;58.383333&quot;,&quot;CountryCode&quot;:&quot;TM&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;10.7&quot;, &quot;f&quot;: &quot;2.1&quot;},{&quot;CountryName&quot;:&quot;Turks and Caicos Islands&quot;,&quot;CapitalName&quot;:&quot;Grand Turk&quot;,&quot;CapitalLatitude&quot;:&quot;21.466666666666665&quot;,&quot;CapitalLongitude&quot;:&quot;-71.133333&quot;,&quot;CountryCode&quot;:&quot;TC&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;6.6&quot;, &quot;f&quot;: &quot;0.0&quot;},{&quot;CountryName&quot;:&quot;Uganda&quot;,&quot;CapitalName&quot;:&quot;Kampala&quot;,&quot;CapitalLatitude&quot;:&quot;0.31666666666666665&quot;,&quot;CapitalLongitude&quot;:&quot;32.550000&quot;,&quot;CountryCode&quot;:&quot;UG&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;9.2&quot;, &quot;f&quot;: &quot;1.5&quot;},{&quot;CountryName&quot;:&quot;Ukraine&quot;,&quot;CapitalName&quot;:&quot;Kyiv&quot;,&quot;CapitalLatitude&quot;:&quot;50.43333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;30.516667&quot;,&quot;CountryCode&quot;:&quot;UA&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;2.9&quot;, &quot;f&quot;: &quot;1.4&quot;},{&quot;CountryName&quot;:&quot;United Arab Emirates&quot;,&quot;CapitalName&quot;:&quot;Abu Dhabi&quot;,&quot;CapitalLatitude&quot;:&quot;24.466666666666665&quot;,&quot;CapitalLongitude&quot;:&quot;54.366667&quot;,&quot;CountryCode&quot;:&quot;AE&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;2.3&quot;, &quot;f&quot;: &quot;0.3&quot;},{&quot;CountryName&quot;:&quot;United Kingdom&quot;,&quot;CapitalName&quot;:&quot;London&quot;,&quot;CapitalLatitude&quot;:&quot;51.5&quot;,&quot;CapitalLongitude&quot;:&quot;-0.083333&quot;,&quot;CountryCode&quot;:&quot;GB&quot;,&quot;ContinentName&quot;:&quot;Europe&quot;, &quot;m&quot;: &quot;0.7&quot;, &quot;f&quot;: &quot;0.3&quot;},{&quot;CountryName&quot;:&quot;United States&quot;,&quot;CapitalName&quot;:&quot;Washington&quot;,&quot;CapitalLatitude&quot;:&quot;38.883333&quot;,&quot;CapitalLongitude&quot;:&quot;-77&quot;,&quot;CountryCode&quot;:&quot;-77.000000&quot;,&quot;ContinentName&quot;:&quot;US&quot;, &quot;m&quot;: &quot;3.7&quot;, &quot;f&quot;: &quot;1.0&quot;},{&quot;CountryName&quot;:&quot;Uruguay&quot;,&quot;CapitalName&quot;:&quot;Montevideo&quot;,&quot;CapitalLatitude&quot;:&quot;-34.85&quot;,&quot;CapitalLongitude&quot;:&quot;-56.166667&quot;,&quot;CountryCode&quot;:&quot;UY&quot;,&quot;ContinentName&quot;:&quot;South America&quot;, &quot;m&quot;: &quot;6.3&quot;, &quot;f&quot;: &quot;1.6&quot;},{&quot;CountryName&quot;:&quot;Uzbekistan&quot;,&quot;CapitalName&quot;:&quot;Tashkent&quot;,&quot;CapitalLatitude&quot;:&quot;41.31666666666667&quot;,&quot;CapitalLongitude&quot;:&quot;69.250000&quot;,&quot;CountryCode&quot;:&quot;UZ&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;3.0&quot;, &quot;f&quot;: &quot;0.7&quot;},{&quot;CountryName&quot;:&quot;Vanuatu&quot;,&quot;CapitalName&quot;:&quot;Port-Vila&quot;,&quot;CapitalLatitude&quot;:&quot;-17.733333333333334&quot;,&quot;CapitalLongitude&quot;:&quot;168.316667&quot;,&quot;CountryCode&quot;:&quot;VU&quot;,&quot;ContinentName&quot;:&quot;Australia&quot;, &quot;m&quot;: &quot;2.1&quot;, &quot;f&quot;: &quot;0.8&quot;},{&quot;CountryName&quot;:&quot;Venezuela&quot;,&quot;CapitalName&quot;:&quot;Caracas&quot;,&quot;CapitalLatitude&quot;:&quot;10.483333333333333&quot;,&quot;CapitalLongitude&quot;:&quot;-66.866667&quot;,&quot;CountryCode&quot;:&quot;VE&quot;,&quot;ContinentName&quot;:&quot;South America&quot;, &quot;m&quot;: &quot;49.4&quot;, &quot;f&quot;: &quot;4.3&quot;},{&quot;CountryName&quot;:&quot;Vietnam&quot;,&quot;CapitalName&quot;:&quot;Hanoi&quot;,&quot;CapitalLatitude&quot;:&quot;21.033333333333335&quot;,&quot;CapitalLongitude&quot;:&quot;105.850000&quot;,&quot;CountryCode&quot;:&quot;VN&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;2.4&quot;, &quot;f&quot;: &quot;0.9&quot;},{&quot;CountryName&quot;:&quot;US Virgin Islands&quot;,&quot;CapitalName&quot;:&quot;Charlotte Amalie&quot;,&quot;CapitalLatitude&quot;:&quot;18.35&quot;,&quot;CapitalLongitude&quot;:&quot;-64.933333&quot;,&quot;CountryCode&quot;:&quot;VI&quot;,&quot;ContinentName&quot;:&quot;North America&quot;, &quot;m&quot;: &quot;46.0&quot;, &quot;f&quot;: &quot;6.6&quot;},{&quot;CountryName&quot;:&quot;Yemen&quot;,&quot;CapitalName&quot;:&quot;Sanaa&quot;,&quot;CapitalLatitude&quot;:&quot;15.35&quot;,&quot;CapitalLongitude&quot;:&quot;44.200000&quot;,&quot;CountryCode&quot;:&quot;YE&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;3.8&quot;, &quot;f&quot;: &quot;1.0&quot;},{&quot;CountryName&quot;:&quot;Zambia&quot;,&quot;CapitalName&quot;:&quot;Lusaka&quot;,&quot;CapitalLatitude&quot;:&quot;-15.416666666666666&quot;,&quot;CapitalLongitude&quot;:&quot;28.283333&quot;,&quot;CountryCode&quot;:&quot;ZM&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;8.3&quot;, &quot;f&quot;: &quot;2.4&quot;},{&quot;CountryName&quot;:&quot;Zimbabwe&quot;,&quot;CapitalName&quot;:&quot;Harare&quot;,&quot;CapitalLatitude&quot;:&quot;-17.816666666666666&quot;,&quot;CapitalLongitude&quot;:&quot;31.033333&quot;,&quot;CountryCode&quot;:&quot;ZW&quot;,&quot;ContinentName&quot;:&quot;Africa&quot;, &quot;m&quot;: &quot;7.6&quot;, &quot;f&quot;: &quot;3.0&quot;},{&quot;CountryName&quot;:&quot;Hong Kong&quot;,&quot;CapitalName&quot;:&quot;N/A&quot;,&quot;CapitalLatitude&quot;:&quot;0&quot;,&quot;CapitalLongitude&quot;:&quot;0.000000&quot;,&quot;CountryCode&quot;:&quot;HK&quot;,&quot;ContinentName&quot;:&quot;Asia&quot;, &quot;m&quot;: &quot;0.2&quot;, &quot;f&quot;: &quot;0.2&quot;}] }</td>
+      </tr>
+</table>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 bg-white border border-gray-dark rounded-1" aria-label="Inline file action toolbar">
+      <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+    </summary>
+    <details-menu>
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2">
+        <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" data-original-text="Copy lines">Copy lines</clipboard-copy></li>
+        <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" data-original-text="Copy link">Copy link</clipboard-copy></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/scottieperry13/NationalHomicideRates/blame/d8725cd0ed0899f9574063931eb7b5eb7e5a0e06/countries.json">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/scottieperry13/NationalHomicideRates/issues/new">Open new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
+
+  </div>
+
+  </div>
+
+  <details class="details-reset details-overlay details-overlay-dark">
+    <summary data-hotkey="l" aria-label="Jump to line"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast linejump" aria-label="Jump to line">
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form Box-body d-flex" action="" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input class="form-control flex-auto mr-3 linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+        <button type="submit" class="btn" data-close-dialog>Go</button>
+</form>    </details-dialog>
+  </details>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+        
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.59205s from unicorn-57d9f5b7d8-htxgc">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon mr-lg-4" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+        <li class="mr-3"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    
+    <script crossorigin="anonymous" integrity="sha512-j7P2Pw3104HznNqyNm7WuCF8Lstcf/sPX5meP6e5RFF177kmi6SAbkZ52A3ttKj0cRHLRrUbk7C1w1xtwh52zA==" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-c163002918ede72971a36e0025f67a4a.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-7k40iaLRlOCjvlJvNu5pTzMtYG4xCuy4lZcMbjkoKrLYKvyNSG1tfCPupwlJP8lZJn6sVdb67wwW79gypXfdlw==" type="application/javascript" src="https://assets-cdn.github.com/assets/github-0545f38d79a28ad665cd5fe102ce1289.js"></script>
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark" open>
+    <summary aria-haspopup="dialog" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+
