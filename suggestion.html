@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+<head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ISTA 498 PROJECT</title>
+    <link rel = "stylesheet" href = "project.css">
+    <link rel = "stylesheet" href = "suggestion.css">
+    <link href = "http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel = "stylesheet">
+</head>
+<body>
+    <script src = "project.js"></script>
+    <script src = "suggestion.js"></script>  
+    <div class = "main_head">
+        <h1 class = "tophead">P A W</h1> 
+        <p class = "head">Places to Avoid in the World</p>
+    </div>
+    <div class = "navbar">
+        <a href = project.html><i class = "fa fa-fw fa-home"></i> Home</a> 
+        <a href = crime-rate.html><i class = "fa fa-map-marker"></i> Crime Rate</a>
+        <a href = currency.html><i class = "fa fa-dollar"></i> Currency</a> 
+        <a class = "active" href = "#"><i class = "fa fa-plane"></i> Suggestion</a> 
+        <div class = "nav-right">
+            <a href = contact.html><i class = "fa fa-fw fa-envelope"></i> Contact</a> 
+        </div>
+    </div>
+    <div class = "check">
+        <h2>Check what you think you are close to</h2>
+        <select id = "genders">
+            <option value = "female">Female</option>
+            <option value = "male">Male</option>
+            
+        </select>
+        <select id = "ages">
+            <option value="teen"> Teen</option>
+            <option value="twenty"> Twenty</option>
+            <option value="thirty"> Thirty</option>
+            <option value="fourtyabove"> Fourty or Above</option>
+        </select>
+        <button id = "butt" onclick = "gettingVal()" ><i class = "fa fa-plane"></i></button> 
+    </div>
+    <div class = "total">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img id = "first_image" src="empire.jpeg" style="width:100%">
+                <div id = "first_text" class="text">"Empire State Building, New York, USA"</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img id = "second_image" src="griffith.jpeg" style="width:100%">
+                <div id = "second_text" class="text">"Griffith Observatory, Los Angeles, USA"</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img id = "last_image" src="white.jpeg" style="width:100%">
+                <div id = "last_text" class="text">"White House, Washington D.C., USA"</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+    <div class = "bottomnav">Chloe and Yongbaek</div>
+</body>
+</html>
